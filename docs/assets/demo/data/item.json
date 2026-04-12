@@ -62396,5 +62396,103 @@
         "70"
       ]
     }
+  },
+  "401011": {
+    "id": 401011,
+    "aegisName": null,
+    "flavorText": null,
+    "name": "Tiger Glass [1]",
+    "unidName": "Glasses",
+    "resName": "Tiger_Glass",
+    "unidResName": "글래스",
+    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nหมวกเสือสุดเท่คู่กับแว่นกลมใส\nเพิ่มเสน่ห์ให้ผู้สวมใส่ พร้อมพลังใจสำหรับการเริ่มต้นผจญภัย\n\nATK +30, Matk +30,\nสามารถใช้สกิล Teleport Lv.1 ได้,\nEXP ที่ได้รับจากมอนสเตอร์ + 5%\nฟื้นฟู HP 100 และ SP 15 ทุกครั้งที่กำจัดมอนสเตอร์ด้วยการโจมตีทางกายภาพระยะประชิดหรือการโจมตีด้วยเวทมนตร์\n(ธนูและสกิลที่โจมตีระยะไกลจะไม่มีผล)\nเมื่อถอดมันออกจะเสีย SP 100\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777772^000000\nตำแหน่ง : ^777777Upper^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 2,
+    "weight": 10,
+    "requiredLevel": 1,
+    "location": "Upper",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "atk": [
+        "30"
+      ],
+      "matk": [
+        "30"
+      ]
+    }
+  },
+  "450482": {
+    "id": 450482,
+    "aegisName": null,
+    "flavorText": null,
+    "name": "White Shirt [1]",
+    "unidName": "Cotton Shirt",
+    "resName": "하얀친환경셔츠",
+    "unidResName": "코튼셔츠",
+    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nเสื้อสีขาวที่บ่งบอกถึงความบริสุทธิ์ของผู้เริ่มต้น\nมอบความมั่นใจให้แก่ผู้สวมใส่ในก้าวแรกสู่โลกกว้าง\n\nHP + 444, SP + 44, EXP ที่ได้รับจากมอนสเตอร์ + 5%,\nฟื้นฟู HP 44 และ SP 4 ทุกๆ 10 วินาที\n\nหากสวมใส่ร่วมกับ White Manteau [1] และ Tiger Glass [1]\nสามารถใช้สกิล Fire Ball Lv.10 และ Magnum Break Lv.10\nประเภท : ^777777Armor^000000  พลังป้องกัน : ^77777725^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 25,
+    "weight": 10,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "hp": [
+        "444"
+      ],
+      "sp": [
+        "44"
+      ]
+    }
+  },
+  "480641": {
+    "id": 480641,
+    "aegisName": null,
+    "flavorText": null,
+    "name": "White Manteau [1]",
+    "unidName": "Hood",
+    "resName": "광망의망토",
+    "unidResName": "후드",
+    "description": "^ff0000ไอเท็มนี้ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nผ้าคลุมเรียบง่ายของผู้เริ่มต้น\nเบา สบาย และช่วยให้การเดินทางเต็มไปด้วยความมั่นใจ\n\nเมื่อสวมใส่ จะสามารถใช้งานสกิล Greed Lv.1 ได้,\nEXP ที่ได้รับจากมอนสเตอร์ + 5%\nFlee + 14\nลดความเสียหายจากธาตุ Neutral 14%\nทุก ๆ 2 Base Lv DEF + 1, MDEF + 1 (สูงสุด Lv.99)\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777715^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 15,
+    "weight": 10,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "flee": [
+        "14"
+      ],
+      "def": [
+        "level:2(1-99)---1"
+      ],
+      "mdef": [
+        "level:2(1-99)---1"
+      ]
+    }
   }
 }
