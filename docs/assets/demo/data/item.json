@@ -23250,7 +23250,6 @@
     "requiredLevel": 1,
     "location": "Lower",
     "compositionPos": null,
-    "skip": true,
     "usableClass": [
       "all"
     ],
@@ -62561,5 +62560,1117 @@
     "canGrade": false,
     "usableClass": [],
     "script": {}
+  },
+  "400023": {
+    "id": 400023,
+    "aegisName": "Dolor_HatK",
+    "name": "Drooping Thanatos's Dolor [1]",
+    "unidName": "Helm",
+    "resName": "고뇌의모자",
+    "description": "หมวกตุ๊กตาที่คล้ายกับ Donor of Thanatos ได้ยินมาว่าตุ๊กตาตัวนี้พูดกับเจ้าของได้ด้วยล่ะ\nเพิ่ม Damage ทางกายภาพ/เวทมนตร์ต่อมอนสเตอร์ธาตุ Holy, Shadow และเผ่า Dragon, Angel 10% (ทุก ๆ การอัพเกรด 2 ขั้น เพิ่มขึ้นอีก 1%)\nMHP +5%, MSP +5%\nเมื่ออัพเกรดถึงขั้น 7 ATK + 5%, MATK + 5%.\nเมื่ออัพเกรดถึงขั้น 9 ลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่ออัพเกรดถึงขั้น 11 ลด Delay หลังใช้สกิล 15%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^77777730^000000\nตำแหน่ง : ^777777Upper ^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 30,
+    "weight": 10,
+    "requiredLevel": 1,
+    "location": "Upper",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "p_element_holy": [
+        "10",
+        "2---1"
+      ],
+      "p_element_dark": [
+        "10",
+        "2---1"
+      ],
+      "p_race_dragon": [
+        "10",
+        "2---1"
+      ],
+      "p_race_angel": [
+        "10",
+        "2---1"
+      ],
+      "m_element_holy": [
+        "10",
+        "2---1"
+      ],
+      "m_element_dark": [
+        "10",
+        "2---1"
+      ],
+      "m_race_dragon": [
+        "10",
+        "2---1"
+      ],
+      "m_race_angel": [
+        "10",
+        "2---1"
+      ],
+      "hpPercent": [
+        "5"
+      ],
+      "spPercent": [
+        "5"
+      ],
+      "atkPercent": [
+        "7===5"
+      ],
+      "matkPercent": [
+        "7===5"
+      ],
+      "vct": [
+        "9===10"
+      ],
+      "acd": [
+        "11===15"
+      ]
+    }
+  },
+  "28592": {
+    "id": 28592,
+    "aegisName": "Angel_Poring_Earing",
+    "flavorText": null,
+    "name": "Angeling Poring Earrings [1]",
+    "unidName": null,
+    "resName": "샤먼이어링",
+    "unidResName": null,
+    "description": "ต่างหูที่ลือกันว่าได้รับการถ่ายทอดพรจาก Angeling Poring เพียงแค่มองดูก็ทำให้รู้สึกอยากสวมใส่ขึ้นมาทันที\n\nMHP + 3%, MSP + 3%\nทุกการอัพเกรด 1 ขั้น MHP + 1%, MSP + 1%\nเมื่อสวมใส่ร่วมกับ Angeling Poring Ring,\nATK + 20, MATK + 20\nประเภท : ^777777Accesory^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก :^7777775^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 5,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "script": {
+      "hpPercent": [
+        "3",
+        "1---1"
+      ],
+      "spPercent": [
+        "3",
+        "1---1"
+      ],
+      "atk": [
+        "EQUIP[Angeling Poring Ring]===20"
+      ],
+      "matk": [
+        "EQUIP[Angeling Poring Ring]===20"
+      ]
+    }
+  },
+  "28593": {
+    "id": 28593,
+    "aegisName": "Angel_Poring_Ring",
+    "flavorText": null,
+    "name": "Angeling Poring Ring",
+    "unidName": null,
+    "resName": "스피리츄얼링",
+    "unidResName": null,
+    "description": "แหวนที่ลือกันว่าได้รับการถ่ายทอดพรจาก Angeling Poring เพียงแค่มองดูก็ทำให้รู้สึกอยากสวมใส่ขึ้นมาทันที\n\nAll State + 1\nทุกการอัพเกรด 1 ขั้น All State + 1\nประเภท : ^777777Accesory^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก :^7777775^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 5,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "script": {
+      "allStatus": [
+        "1",
+        "1---1"
+      ]
+    }
+  },
+  "20918": {
+    "id": 20918,
+    "aegisName": "Angel_Poring_Wing",
+    "flavorText": null,
+    "name": "Angeling Poring Wing [1]",
+    "unidName": null,
+    "resName": "하늘색큐피트날개",
+    "unidResName": null,
+    "description": "ปีกที่ทำเลียนแบบ Angeling Poring แฝงไปด้วยจิตใจที่อยากจะปกป้องเผ่าพันธุ์จากมนุษย์\n\nMDEF + 4, All State + 2\nเมื่อสวมใส่ร่วมกับ\nAngeling Poring Ring และ Angeling Poring Earrings,\nMHP + 5%, MSP + 5%\n\nประเภท : ^777777Garment^000000 พลังป้องกัน : ^77777715^000000\nน้ำหนัก :^77777720^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 15,
+    "weight": 20,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "script": {
+      "mdef": [
+        "4"
+      ],
+      "allStatus": [
+        "2"
+      ],
+      "hpPercent": [
+        "EQUIP[Angeling Poring Ring&&Angeling Poring Earrings]===5"
+      ],
+      "spPercent": [
+        "EQUIP[Angeling Poring Ring&&Angeling Poring Earrings]===5"
+      ]
+    }
+  },
+  "2965": {
+    "id": 2965,
+    "aegisName": "Angel_Egg",
+    "flavorText": null,
+    "name": "Angel Egg [1]",
+    "unidName": null,
+    "resName": "천사의알",
+    "unidResName": null,
+    "description": "เครื่องประดับนางฟ้าที่ละเอียดอ่อนและสวยงามทำจากเปลือกไข่\nAll State + 1, เพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 5%, MATK + 5%.\nเมื่อสวมใส่กับ Deep Blue Angel Hairband และ Pink Angel Hairband\nเพิ่ม All State + 1, MHP + 5%, MSP + 5%,\nเมื่อถูกโจมตีทางกายภาพ มีโอกาสใช้งาน Lord of Vermilion Lv.5,\nเพิ่ม Damage ต่อศัตรูทุกเผ่า 5%\nลดระยะเวลาร่ายแบบแปรผัน 10%\nประเภท: ^777777Accessory^000000 พลังป้องกัน : ^7777771^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่สวมใส่ได้ : ^777777ทุกอาชีพ ยกเว้น Novice^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 1,
+    "weight": 10,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "script": {
+      "allStatus": [
+        "1",
+        "EQUIP[Deep Blue Angel Hairband||Pink Angel Hairband]===1"
+      ],
+      "p_class_all": [
+        "5"
+      ],
+      "matkPercent": [
+        "5"
+      ],
+      "hpPercent": [
+        "EQUIP[Deep Blue Angel Hairband||Pink Angel Hairband]===5"
+      ],
+      "spPercent": [
+        "EQUIP[Deep Blue Angel Hairband||Pink Angel Hairband]===5"
+      ],
+      "p_race_all": [
+        "EQUIP[Deep Blue Angel Hairband||Pink Angel Hairband]===5"
+      ],
+      "vct": [
+        "EQUIP[Deep Blue Angel Hairband||Pink Angel Hairband]===10"
+      ]
+    }
+  },
+  "15171": {
+    "id": 15171,
+    "aegisName": "Angeling_Suit",
+    "flavorText": null,
+    "name": "Angeling Suit [1]",
+    "unidName": null,
+    "resName": "엔젤링수트",
+    "unidResName": null,
+    "description": "เสื้อคลุมศักดิ์สิทธิ์ที่ได้รับพรจาก Angeling\nมันเป็นสิ่งที่นักบวชหญิงแห่งวิหารศักดิ์สิทธิ์มอบให้แก่ผู้ฝึกฝน จึงมีความหมายพิเศษสำหรับ Novice ทุกคน\n\nMHP + 1000\nMSP + 100\n\nBase Lv 90 ขึ้นไป,\nทุก ๆ 1 Base Lv HP + 30, SP + 5\n\nเมื่ออัพเกรดถึงขั้น 5 ขึ้นไป,\nลด Fixed Cast Time 0.1 วินาที\n\nเมื่ออัพเกรดถึงขั้น 7 ขึ้นไป,\nMATK + 10%\n\nเมื่ออัพเกรดถึงขั้น 9 ขึ้นไป,\nจะมอบธาตุ Holy ให้กับชุดเกราะ\nประเภท : ^777777Armor^000000  พลังป้องกัน : ^77777777^000000\nน้ำหนัก : ^77777740^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 77,
+    "weight": 40,
+    "requiredLevel": 90,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "script": {
+      "hp": [
+        "1000",
+        "SUM(level==90)level:1---30"
+      ],
+      "sp": [
+        "100",
+        "SUM(level==90)level:1---5"
+      ],
+      "fct": [
+        "5===0.1"
+      ],
+      "matkPercent": [
+        "7===10"
+      ]
+    }
+  },
+  "480226": {
+    "id": 480226,
+    "aegisName": "Wing_Of_Happiness_ROC",
+    "flavorText": null,
+    "name": "Wing Of Happiness [1]",
+    "unidName": "Garment",
+    "resName": "행복의날개",
+    "unidResName": "후드",
+    "description": "ปีกที่ทำให้คุณรู้สึกมีความสุข\nAll State + 3\nสามารถใช้งาน Increase Agi Lv.3\n\nเมื่อสวมใส่ร่วมกับ Angel Of Happiness หรือ [NFS] Angel Of Happiness\nเพิ่มอัตราการฟื้นฟู HP 5%, เพิ่มอัตราการฟื้นฟู SP 5%\nเมื่ออัพเกรดถึงขั้น 5 จะเพิ่มพลังป้องกันธาตุ Holy 15%\nเมื่ออัพเกรดถึงขั้น 6 ทุก ๆ การอัพเกรด 1 ขั้น จะเพิ่มพลังป้องกันธาตุ Holy 5% (มีผลถึงการอัพเกรดขั้น 10)\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777710^000000\nน้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 10,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "script": {
+      "allStatus": [
+        "3"
+      ]
+    }
+  },
+  "18798": {
+    "id": 18798,
+    "aegisName": "Pink_Angel_Hairband",
+    "flavorText": null,
+    "name": "Pink Angel Hairband [1]",
+    "unidName": null,
+    "resName": "핑크천사의머리띠",
+    "unidResName": null,
+    "description": "มันเป็นหมวกรูปปีกอันสวยงามที่ทำขึ้นโดยรวบรวมขนนกเทวดามาติดกับที่คาดผม\nAGI + 1 , LUK + 1\nMDEF + 3\nลดดาเมจต่อศัตรูประเภท Demon 3%\nเมื่ออัพเกรดถึงขั้น 7 , เพิ่มการโจมตีกายภาพและเวทมนตร์ต่อมอนสเตอร์ Demi Human และ Player10 %\nประเภท: ^777777Helm^000000 พลังป้องกัน : ^7777774^000000\nตำแหน่ง: ^777777Upper^000000 น้ำหนัก : ^77777710^000000\nอาชีพที่สวมใส่ได้ : ^777777ทุกอาชีพ ยกเว้น Novice^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 4,
+    "weight": 10,
+    "requiredLevel": null,
+    "location": "Upper",
+    "compositionPos": null,
+    "canGrade": false,
+    "script": {
+      "agi": [
+        "1"
+      ],
+      "luk": [
+        "1"
+      ],
+      "mdef": [
+        "3"
+      ],
+      "p_race_demihuman": [
+        "7===10"
+      ],
+      "m_race_demihuman": [
+        "7===10"
+      ]
+    }
+  },
+  "18797": {
+    "id": 18797,
+    "aegisName": "Deep_Angel_Hairband",
+    "flavorText": null,
+    "name": "Deep Blue Angel Hairband [1]",
+    "unidName": null,
+    "resName": "딥블루천사의머리띠",
+    "unidResName": null,
+    "description": "มันเป็นหมวกรูปปีกอันสวยงามที่ทำขึ้นโดยรวบรวมขนนกเทวดามาติดกับที่คาดผม\nAGI + 1 , LUK + 1\nMDEF + 3\nลดดาเมจต่อศัตรูประเภท Demon 3%\nเมื่ออัพเกรดถึงขั้น 7 , เพิ่มพลังป้องกันการโจมตีกายภาพและเวทมนตร์จากมอนสเตอร์ Demi Human และ Player10 %\nประเภท: ^777777Helm^000000 พลังป้องกัน : ^7777774^000000\nตำแหน่ง: ^777777Upper^000000 น้ำหนัก : ^77777710^000000\nอาชีพที่สวมใส่ได้ : ^777777ทุกอาชีพ ยกเว้น Novice^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 4,
+    "weight": 10,
+    "requiredLevel": null,
+    "location": "Upper",
+    "compositionPos": null,
+    "canGrade": false,
+    "script": {
+      "agi": [
+        "1"
+      ],
+      "luk": [
+        "1"
+      ],
+      "mdef": [
+        "3"
+      ]
+    }
+  },
+  "4908": {
+    "id": 4908,
+    "aegisName": "Force1",
+    "flavorText": null,
+    "name": "Dark Lord Essence Force 1",
+    "unidName": null,
+    "resName": "완력",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nSTR +1\nATK +3\nINT -1\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "script": {
+      "str": [
+        "1"
+      ],
+      "atk": [
+        "3"
+      ],
+      "int": [
+        "-1"
+      ]
+    }
+  },
+  "4909": {
+    "id": 4909,
+    "aegisName": "Force2",
+    "flavorText": null,
+    "name": "Dark Lord Essence Force 2",
+    "unidName": null,
+    "resName": "완력",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nSTR +2\nATK +6\nINT -2\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "str": [
+        "2"
+      ],
+      "atk": [
+        "6"
+      ],
+      "int": [
+        "-2"
+      ]
+    }
+  },
+  "4910": {
+    "id": 4910,
+    "aegisName": "Force3",
+    "flavorText": null,
+    "name": "Dark Lord Essence Force 3",
+    "unidName": null,
+    "resName": "완력",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nSTR +4\nATK +12\nINT -4\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "str": [
+        "4"
+      ],
+      "atk": [
+        "12"
+      ],
+      "int": [
+        "-4"
+      ]
+    }
+  },
+  "4911": {
+    "id": 4911,
+    "aegisName": "Intellect1",
+    "flavorText": null,
+    "name": "Dark Lord Essence Intelligence 1",
+    "unidName": null,
+    "resName": "지력",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nINT +1\nMATK +3\nSTR -1\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "int": [
+        "1"
+      ],
+      "matk": [
+        "3"
+      ],
+      "str": [
+        "-1"
+      ]
+    }
+  },
+  "4912": {
+    "id": 4912,
+    "aegisName": "Intellect2",
+    "flavorText": null,
+    "name": "Dark Lord Essence Intelligence 2",
+    "unidName": null,
+    "resName": "지력",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nINT +2\nMATK +6\nSTR -2\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "int": [
+        "2"
+      ],
+      "matk": [
+        "6"
+      ],
+      "str": [
+        "-2"
+      ]
+    }
+  },
+  "4913": {
+    "id": 4913,
+    "aegisName": "Intellect3",
+    "flavorText": null,
+    "name": "Dark Lord Essence Intelligence 3",
+    "unidName": null,
+    "resName": "지력",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nINT +4\nMATK +12\nSTR -4\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "int": [
+        "4"
+      ],
+      "matk": [
+        "12"
+      ],
+      "str": [
+        "-4"
+      ]
+    }
+  },
+  "4914": {
+    "id": 4914,
+    "aegisName": "Swiftness1",
+    "flavorText": null,
+    "name": "Dark Lord Essence Speed 1",
+    "unidName": null,
+    "resName": "신속",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nAGI +1\nอัตราหลบหลีก +2\nVIT -1\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "agi": [
+        "1"
+      ],
+      "flee": [
+        "2"
+      ],
+      "vit": [
+        "-1"
+      ]
+    }
+  },
+  "4915": {
+    "id": 4915,
+    "aegisName": "Swiftness2",
+    "flavorText": null,
+    "name": "Dark Lord Essence Speed 2",
+    "unidName": null,
+    "resName": "신속",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nAGI +2\nอัตราหลบหลีก +4\nVIT -2\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "agi": [
+        "2"
+      ],
+      "flee": [
+        "4"
+      ],
+      "vit": [
+        "-2"
+      ]
+    }
+  },
+  "4916": {
+    "id": 4916,
+    "aegisName": "Swiftness3",
+    "flavorText": null,
+    "name": "Dark Lord Essence Speed 3",
+    "unidName": null,
+    "resName": "신속",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nAGI +4\nอัตราหลบหลีก +8\nVIT -4\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "agi": [
+        "4"
+      ],
+      "flee": [
+        "8"
+      ],
+      "vit": [
+        "-4"
+      ]
+    }
+  },
+  "4917": {
+    "id": 4917,
+    "aegisName": "Tough1",
+    "flavorText": null,
+    "name": "Dark Lord Essence Vitality 1",
+    "unidName": null,
+    "resName": "체력",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nVIT +1\nDEF +3\nMDEF +2\nAGI -1\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "vit": [
+        "1"
+      ],
+      "def": [
+        "3"
+      ],
+      "mdef": [
+        "2"
+      ],
+      "agi": [
+        "-1"
+      ]
+    }
+  },
+  "4918": {
+    "id": 4918,
+    "aegisName": "Tough2",
+    "flavorText": null,
+    "name": "Dark Lord Essence Vitality 2",
+    "unidName": null,
+    "resName": "체력",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nVIT +2\nDEF +6\nMDEF +4\nAGI -2\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "vit": [
+        "2"
+      ],
+      "def": [
+        "6"
+      ],
+      "mdef": [
+        "4"
+      ],
+      "agi": [
+        "-2"
+      ]
+    }
+  },
+  "4919": {
+    "id": 4919,
+    "aegisName": "Tough3",
+    "flavorText": null,
+    "name": "Dark Lord Essence Vitality 3",
+    "unidName": null,
+    "resName": "체력",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nVIT +4\nDEF +12\nMDEF +8\nAGI -4\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "vit": [
+        "4"
+      ],
+      "def": [
+        "12"
+      ],
+      "mdef": [
+        "8"
+      ],
+      "agi": [
+        "-4"
+      ]
+    }
+  },
+  "4920": {
+    "id": 4920,
+    "aegisName": "Artful1",
+    "flavorText": null,
+    "name": "Dark Lord Essence Concentration 1",
+    "unidName": null,
+    "resName": "집중",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nDEX +1\nอัตราความแม่นยำ +2\nLUK -1\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "dex": [
+        "1"
+      ],
+      "hit": [
+        "2"
+      ],
+      "luk": [
+        "-1"
+      ]
+    }
+  },
+  "4921": {
+    "id": 4921,
+    "aegisName": "Artful2",
+    "flavorText": null,
+    "name": "Dark Lord Essence Concentration 2",
+    "unidName": null,
+    "resName": "집중",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nDEX +2\nอัตราความแม่นยำ +4\nLUK -2\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "dex": [
+        "2"
+      ],
+      "hit": [
+        "4"
+      ],
+      "luk": [
+        "-2"
+      ]
+    }
+  },
+  "4922": {
+    "id": 4922,
+    "aegisName": "Artful3",
+    "flavorText": null,
+    "name": "Dark Lord Essence Concentration 3",
+    "unidName": null,
+    "resName": "집중",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nDEX +4\nอัตราความแม่นยำ +8\nLUK -4\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "dex": [
+        "4"
+      ],
+      "hit": [
+        "8"
+      ],
+      "luk": [
+        "-4"
+      ]
+    }
+  },
+  "4923": {
+    "id": 4923,
+    "aegisName": "Fortune1",
+    "flavorText": null,
+    "name": "Dark Lord Essence Luck 1",
+    "unidName": null,
+    "resName": "행운",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nLUK +1\nCritical +1\nDEX -1\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "luk": [
+        "1"
+      ],
+      "critical": [
+        "1"
+      ],
+      "dex": [
+        "-1"
+      ]
+    }
+  },
+  "4924": {
+    "id": 4924,
+    "aegisName": "Fortune2",
+    "flavorText": null,
+    "name": "Dark Lord Essence Luck 2",
+    "unidName": null,
+    "resName": "행운",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nLUK +2\nCritical +2\nDEX -2\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "luk": [
+        "2"
+      ],
+      "critical": [
+        "2"
+      ],
+      "dex": [
+        "-2"
+      ]
+    }
+  },
+  "4925": {
+    "id": 4925,
+    "aegisName": "Fortune3",
+    "flavorText": null,
+    "name": "Dark Lord Essence Luck 3",
+    "unidName": null,
+    "resName": "행운",
+    "unidResName": null,
+    "description": "สกัดจากปีศาจ Morocc มีสกิลบางส่วนของ Morocc อยู่\nLUK +4\nCritical +4\nDEX -4\n^ff0000 หมายเหตุ: นี่เป็น Enchant ไอเทมพิเศษ จึงไม่มีอยู่ใน Card's Slot^000000\nติดตั้ง: ^777777ทุก Slot ที่มี^000000\nน้ำหน้ก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 11,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 65535,
+    "canGrade": false,
+    "script": {
+      "luk": [
+        "4"
+      ],
+      "critical": [
+        "4"
+      ],
+      "dex": [
+        "-4"
+      ]
+    }
+  },
+  "630051": {
+    "id": 630051,
+    "aegisName": "630051",
+    "flavorText": null,
+    "name": "Faceworm Queen Horn [2]",
+    "unidName": null,
+    "resName": "FaceWormQueen_Horn",
+    "unidResName": null,
+    "description": "ส่วนหนึ่งของเขาของราชินีเฟสเวิร์มที่แหลมคม \nแม้ว่านี่จะเป็นแค่ชิ้นส่วนเล็ก ๆ แต่ยังคงมีพลังที่แข็งแกร่ง\n\nเพิ่ม Damage สกิล Brandish Spear 15%\nทุก ๆ การเรียนรู้สกิล Brandish Spear 1 เลเวล ATK + 3\nเมื่ออัพเกรดถึงขั้น 8 STR + 3, HIT + 20\nเมื่ออัพเกรดถึงขั้น 10 ATK + 5% เพิ่มเติม, ASPD + 10%\n\nเมื่อสวมใส่ร่วมกับ Giant Snake Breath หรือ [NFS] Giant Snake Breath\nทุก ๆ 18 Base Level เพิ่ม Damage สกิล Brandish Spear ขึ้นอีก 3%\nประเภท : ^777777Two-Handed Spear^000000 พลังโจมตี : ^777777220^000000\nน้ำหนัก : ^777777300^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^77777770^000000\nอาชีพที่ใส่ได้ : ^777777Lord Knight^000000",
+    "slots": 2,
+    "itemTypeId": 1,
+    "itemSubTypeId": 260,
+    "itemLevel": 4,
+    "attack": 220,
+    "defense": null,
+    "weight": 300,
+    "requiredLevel": 70,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "LordKnight"
+    ],
+    "script": {
+      "Brandish Spear": [
+        "15",
+        "EQUIP[Giant Snake Breath]SUM[level==18]---3"
+      ],
+      "atk": [
+        "LEARN_SKILL[Brandish Spear==1]---3"
+      ],
+      "str": [
+        "8===3"
+      ],
+      "hit": [
+        "8===20"
+      ],
+      "atkPercent": [
+        "10===5"
+      ],
+      "aspdPercent": [
+        "10===10"
+      ]
+    }
+  },
+  "600065": {
+    "id": 600065,
+    "aegisName": "600065",
+    "flavorText": null,
+    "name": "Faceworm Queen Tailbone [1]",
+    "unidName": null,
+    "resName": "FaceWormQueen_Tailbone",
+    "unidResName": null,
+    "description": "ส่วนหนึ่งของหางของราชินีเฟสเวิร์มที่แหลมคม\nแม้ว่านี่จะเป็นแค่ชิ้นส่วนเล็ก ๆ แต่ยังคงมีพลังที่แข็งแกร่ง\n\nเพิ่ม Damage สกิล Bowling Bash 15%\nทุก ๆ การเรียนรู้สกิล Bowling Bash 1 เลเวล ATK + 3 \n\nเมื่ออัพเกรดถึงขั้น 8 STR + 3, HIT + 20\nเมื่ออัพเกรดถึงขั้น 10 ATK + 5%, ASPD + 10%\n\nเมื่อสวมใส่ร่วมกับ Giant Snake Breath หรือ [NFS] Giant Snake Breath\nทุก ๆ 18 Base Level เพิ่ม Damage สกิล Bowling Bash ขึ้นอีก 3%\n\nประเภท : ^777777Two-Handed Sword^000000 พลังโจมตี : ^777777220^000000\nน้ำหนัก : ^777777300^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^77777770^000000\nอาชีพที่ใส่ได้ : ^777777Lord Knight^000000",
+    "slots": 1,
+    "itemTypeId": 1,
+    "itemSubTypeId": 258,
+    "itemLevel": 4,
+    "attack": 220,
+    "defense": null,
+    "weight": 300,
+    "requiredLevel": 70,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "LordKnight"
+    ],
+    "script": {
+      "Bowling Bash": [
+        "15",
+        "EQUIP[Giant Snake Breath]SUM[level==18]---3"
+      ],
+      "atk": [
+        "LEARN_SKILL[Bowling Bash==1]---3"
+      ],
+      "str": [
+        "8===3"
+      ],
+      "hit": [
+        "8===20"
+      ],
+      "atkPercent": [
+        "10===5"
+      ],
+      "aspdPercent": [
+        "10===10"
+      ]
+    }
+  },
+  "610077": {
+    "id": 610077,
+    "aegisName": null,
+    "flavorText": null,
+    "name": "Faceworm Queen Teeth [1]",
+    "unidName": null,
+    "resName": "FaceWormQueen_Teeth",
+    "unidResName": null,
+    "description": "ส่วนหนึ่งของเขี้ยวของราชินีเฟสเวิร์มที่แหลมคม\nแม้ว่านี่จะเป็นแค่ชิ้นส่วนเล็ก ๆ แต่ยังคงมีพลังที่แข็งแกร่ง\n\nเพิ่ม Damage สกิล Sonic Blow 30%\nทุก ๆ การเรียนรู้สกิล Katar Mastery 1 เลเวล เพิ่ม Critical Damage 1%\nเมื่ออัพเกรดถึงขั้น 8 ATK + 5%, CRI + 5\nเมื่ออัพเกรดถึงขั้น 10 เพิ่ม Critical Damage ขึ้นอีก 5%, ASPD + 10%\n\nเมื่อสวมใส่ร่วมกับ Giant Snake Breath หรือ [NFS] Giant Snake Breath\nทุก ๆ 18 Base Level เพิ่ม Damage สกิล Sonic Blow ขึ้นอีก 3%\n\nประเภท : ^777777Katar^000000 พลังโจมตี : ^777777180^000000\nน้ำหนัก : ^777777150^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^77777770^000000\nอาชีพที่ใส่ได้ : ^777777Assassin Cross^000000",
+    "slots": 1,
+    "itemTypeId": 1,
+    "itemSubTypeId": 272,
+    "itemLevel": 4,
+    "attack": 180,
+    "defense": null,
+    "weight": 150,
+    "requiredLevel": 70,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "AssassinCross"
+    ],
+    "script": {
+      "Sonic Blow": [
+        "30",
+        "EQUIP[Giant Snake Breath]SUM[level==18]---3"
+      ],
+      "criDmg": [
+        "LEARN_SKILL[Katar Mastery==1]---1",
+        "10===5"
+      ],
+      "atkPercent": [
+        "8===5"
+      ],
+      "critical": [
+        "8===5"
+      ],
+      "aspdPercent": [
+        "10===10"
+      ]
+    }
+  },
+  "530065": {
+    "id": 530065,
+    "aegisName": null,
+    "flavorText": null,
+    "name": "Faceworm Queen Thorn [1]",
+    "unidName": null,
+    "resName": "FaceWormQueen_Thorn",
+    "unidResName": null,
+    "description": "ส่วนหนึ่งของกระดูกของราชินีเฟสเวิร์มที่แหลมคม \nแม้ว่านี่จะเป็นแค่ชิ้นส่วนเล็ก ๆ แต่ยังคงมีพลังที่แข็งแกร่ง\n\nเพิ่ม Damage สกิล Holy Cross 15%\nทุก ๆ การเรียนรู้สกิล Holy Cross 1 เลเวล ATK + 3\nเมื่ออัพเกรดถึงขั้น 8 STR + 3, HIT + 20\nเมื่ออัพเกรดถึงขั้น 10 ATK + 5% เพิ่มเติม, ASPD + 10%\n\nเมื่อสวมใส่ร่วมกับ Giant Snake Breath หรือ [NFS] Giant Snake Breath\nทุก ๆ 18 Base Level เพิ่ม Damage สกิล Holy Cross ขึ้นอีก 3%\nประเภท : ^777777Two-Handed Spear^000000 พลังโจมตี : ^777777170^000000\nน้ำหนัก : ^777777190^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^77777770^000000\nอาชีพที่ใส่ได้ : ^777777Paladin^000000",
+    "slots": 1,
+    "itemTypeId": 1,
+    "itemSubTypeId": 260,
+    "itemLevel": 4,
+    "attack": 170,
+    "defense": null,
+    "weight": 190,
+    "requiredLevel": 70,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Paladin"
+    ],
+    "script": {
+      "Holy Cross": [
+        "15",
+        "EQUIP[Giant Snake Breath]SUM[level==18]---3"
+      ],
+      "atk": [
+        "LEARN_SKILL[Holy Cross==1]---3"
+      ],
+      "str": [
+        "8===3"
+      ],
+      "hit": [
+        "8===20"
+      ],
+      "atkPercent": [
+        "10===5"
+      ],
+      "aspdPercent": [
+        "10===10"
+      ]
+    }
   }
 }
