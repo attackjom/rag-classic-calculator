@@ -26115,8 +26115,8 @@
     "aegisName": "OpenAir_Headset",
     "name": "Open Air Headset",
     "unidName": "Ribbon",
-    "resName": "OpenAir_Headset",
-    "description": "เมื่อฆ่ามอนสเตอร์ด้วยการโจมตีทางเวทย์,ทางกายภาพ SP +5\nลดดีเลย์หลังใช้สกิล -5%\nลดปริมาณการใช้ SP -5%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "resName": "ACCESSORY_OpenAir_Headset",
+    "description": "เมื่อฆ่ามอนสเตอร์ด้วยการโจมตีทางเวทย์,ทางกายภาพ SP +5\nลดดีเลย์หลังใช้สกิล -5%\nลดปริมาณการใช้ SP -5%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 0,
     "itemTypeId": 2,
     "itemSubTypeId": 512,
@@ -26127,16 +26127,12 @@
     "requiredLevel": 90,
     "location": "Lower",
     "compositionPos": null,
-    "skip": true,
     "usableClass": [
       "all"
     ],
     "script": {
       "acd": [
         "5"
-      ],
-      "spPercent": [
-        "-5"
       ]
     }
   },
@@ -63663,5 +63659,356 @@
         "10===10"
       ]
     }
+  },
+  "5969": {
+    "id": 5969,
+    "aegisName": "QueenAnzRevenge",
+    "name": "Queen Anz Revenge [1]",
+    "unidName": "Hat",
+    "resName": "ACCESSORY_QueenAnzRevenge",
+    "description": "หมวกใบใหญ่ที่โจรสลัดผู้เลื่องชื่อเคยใส่ในอดีต เพราะความโหดร้ายของโจรสลัดนั้นทำให้หมวกมีคราบสีแดงติดอยู่เสมอ ในปัจจุบันเองหมวกใบนี้ก็ยังคงถูกส่งต่อให้โจรสลัดผู้แกร่งกล้า\nSTR + 5\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 7%\nเมื่ออัพเกรดถึงขั้น 5 ขึ้นไป\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภทเพิ่มเติม 2%\nเมื่ออัพเกรดถึงขั้น 7 ขึ้นไป\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภทเพิ่มเติม 3%\nเมื่ออัพเกรดถึงขั้น 9 ขึ้นไป\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภทเพิ่มเติม 4%\nยกเลิกการลงโทษขนาดของอาวุธ\nต่อมอนสเตอร์ทุกประเภท \nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777777^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^77777740^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 7,
+    "weight": 40,
+    "requiredLevel": 90,
+    "location": "Upper",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "str": [
+        "5"
+      ],
+      "p_class_all": [
+        "7",
+        "5===2",
+        "7===3",
+        "9===4"
+      ],
+      "ignore_size_penalty": [
+        "9===1"
+      ]
+    }
+  },
+  "490033": {
+    "id": 490033,
+    "aegisName": "Fallen_Angel_tear",
+    "name": "Fallen Angel's Tear [1]",
+    "unidName": "Earring",
+    "resName": "여신의눈물",
+    "description": "อัญมณีที่เกิดจากการรวมตัวของหยาดน้ำตาของเทวดาตกสวรรค์  \nATK+6%, MATK+6%, Hit+15.\nเมื่อใส่ร่วมกับ Fallen Angel Wing ที่อัพเกรดถึงขั้น 9 ขึ้นไป  \nเพิ่มพลังป้องกัน Stone และ Curse +40%.\nเมื่อใส่ร่วมกับ Fallen Angel Hairband ที่อัพเกรดถึงขั้น 9 ขึ้นไป  \nลดระยะเวลาร่ายแบบผันแปร 5% \nเมื่อใส่ร่วมกับ Fallen Angel Armor ที่อัพเกรดถึงขั้น 9 ขึ้นไป  \nMaxHp+8%.\nประเภท: ^777777Accessory^000000  พลังป้องกัน: ^7777770^000000\nน้ำหนัก: ^77777710^000000\nเลเวลที่ต้องการ: ^77777730^000000\nอาชีพที่ใส่ได้: ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 30,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "atkPercent": [
+        "6"
+      ],
+      "matkPercent": [
+        "6"
+      ],
+      "hit": [
+        "15"
+      ],
+      "p_class_all": [
+        "EQUIP[Fallen Angel Wings]===4"
+      ],
+      "m_class_all": [
+        "EQUIP[Fallen Angel Wings]===4"
+      ],
+      "vct": [
+        "EQUIP[Fallen Angel Hairband]REFINE[headUpper==9]===5"
+      ],
+      "hpPercent": [
+        "EQUIP[Fallen Angel Armor]REFINE[armor==9]===8"
+      ]
+    }
+  },
+  "490100": {
+    "id": 490100,
+    "aegisName": "Red_Force_Pendant",
+    "name": "Red Force Pendant [1]",
+    "unidName": "Ring",
+    "resName": "영원한사랑",
+    "description": "สร้อยคอที่ปรับแต่งมาจาก Thanatos's Necklace ซึ่งโดดเด่นในเรื่องของพลังแห่งการฟื้นฟู HP\nATK + 5%, MATK + 5%\nเมื่ออัพเกรดถึงขั้น 7 ATK +20, MATK +20\nเมื่ออัพเกรดถึงขั้น 9 ลด Delay หลังใช้สกิล 5%\nเมื่อสวมใส่ร่วมกับ Drooping Thanatos's Dolor,\nทุก ๆ การอัพเกรด Headgear 4 ขั้น ลด Delay หลังใช้สกิล 2%,\nเมื่ออัพเกรด Headgear ถึงขั้น 7 เมื่อโจมตีทางกายภาพ มีโอกาส 5% ที่จะฟื้นฟู HP 5% ของ Damage ที่ทำ และเมื่อโจมตีทางเวทมนตร์ มีโอกาส 4% ที่จะฟื้นฟู HP 300 หน่วยทุก ๆ 1 วินาทีทั้งหมด 4 ครั้ง,\nเมื่ออัพเกรด Headgear ถึงขั้น 9, ATK +5%, MATK +5%,\nเมื่ออัพเกรด Headgear ถึงขั้น 11 ลดระยะเวลาร่ายแบบคงที่ 0.5 วินาที\nประเภท : ^777777Accessory(Right)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 510,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "atkPercent": [
+        "5",
+        "EQUIP[Drooping Thanatos's Dolor]XREFINEX[headUpper==9]===5"
+      ],
+      "matkPercent": [
+        "5",
+        "EQUIP[Drooping Thanatos's Dolor]XREFINEX[headUpper==9]===5"
+      ],
+      "atk": [
+        "7===20"
+      ],
+      "matk": [
+        "7===20"
+      ],
+      "acd": [
+        "9===5",
+        "EQUIP[Drooping Thanatos's Dolor]REFINE[headUpper==4]---2"
+      ],
+      "fct": [
+        "EQUIP[Drooping Thanatos's Dolor]XREFINEX[headUpper==11]===0.5"
+      ]
+    }
+  },
+  "490101": {
+    "id": 490101,
+    "aegisName": "Blue_Mental_Pendant",
+    "name": "Blue Mental Pendant [1]",
+    "unidName": "Ring",
+    "resName": "수호의사랑",
+    "description": "สร้อยคอที่ปรับแต่งมาจาก Thanatos's Necklace ซึ่งโดดเด่นในเรื่องของพลังแห่งการฟื้นฟู SP\nATK + 5%, MATK + 5%\nเมื่ออัพเกรดถึงขั้น 7 ATK +20, MATK +20\nเมื่ออัพเกรดถึงขั้น 9 ลด Delay หลังใช้สกิล 5%\nเมื่อสวมใส่ร่วมกับ Drooping Thanatos's Dolor,\nทุก ๆ การอัพเกรด Headgear 4 ขั้น ลด Delay หลังใช้สกิล 2%,\nเมื่ออัพเกรด Headgear ถึงขั้น 7 เมื่อโจมตีทางกายภาพ มีโอกาส 1% ที่จะฟื้นฟู SP 3% ของ Damage ที่ทำ และเมื่อโจมตีทางเวทมนตร์ มีโอกาส 4% ที่จะฟื้นฟู SP 70 หน่วยทุก ๆ 1 วินาทีทั้งหมด 4 ครั้ง,\nเมื่ออัพเกรด Headgear ถึงขั้น 9, ATK +5%, MATK +5%,\nเมื่ออัพเกรด Headgear ถึงขั้น 11 ลดระยะเวลาร่ายแบบคงที่ 0.5 วินาที\nประเภท : ^777777Accessory(Right)^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 510,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "atkPercent": [
+        "5",
+        "EQUIP[Drooping Thanatos's Dolor]XREFINEX[headUpper==9]===5"
+      ],
+      "matkPercent": [
+        "5",
+        "EQUIP[Drooping Thanatos's Dolor]XREFINEX[headUpper==9]===5"
+      ],
+      "atk": [
+        "7===20"
+      ],
+      "matk": [
+        "7===20"
+      ],
+      "acd": [
+        "9===5",
+        "EQUIP[Drooping Thanatos's Dolor]REFINE[headUpper==4]---2"
+      ],
+      "fct": [
+        "EQUIP[Drooping Thanatos's Dolor]XREFINEX[headUpper==11]===0.5"
+      ]
+    }
+  },
+  "420215": {
+    "id": 420215,
+    "aegisName": "Gang_Scarf_ROC",
+    "name": "Gang Scarf",
+    "unidName": "Ribbon",
+    "resName": "ACCESSORY_GANG_SCARF",
+    "description": "ผ้าปิดปากสีแดงที่พวกอันธพาลจะสวมใส่\nATK + 5\nลด Fixed Cast Time ของ Skill ลง 0.1 วินาที\n\n^777777เมื่อสวมใส่ร่วมกับ Fallen Angel Wing, Damage ทางกายภาพที่ทำต่อมอนสเตอร์เผ่า Demon,Angel,Undead + 3%^000000\n\n^777777เมื่อสวมใส่ร่วมกับ Fallen Angel Wing และ Costume Fallen Angel Lost, All Stat + 1, DEF + 10, MDEF + 10^000000\n\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": null,
+    "location": "Lower",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "atk": [
+        "5"
+      ],
+      "fct": [
+        "0.1"
+      ],
+      "p_race_demon": [
+        "EQUIP[Fallen Angel Wing]===3"
+      ],
+      "p_race_angel": [
+        "EQUIP[Fallen Angel Wing]===3"
+      ],
+      "p_race_undead": [
+        "EQUIP[Fallen Angel Wing]===3"
+      ],
+      "allStatus": [
+        "EQUIP[Fallen Angel Wing&&Costume Fallen Angel Lost]===1"
+      ],
+      "def": [
+        "EQUIP[Fallen Angel Wing&&Costume Fallen Angel Lost]===10"
+      ],
+      "mdef": [
+        "EQUIP[Fallen Angel Wing&&Costume Fallen Angel Lost]===10"
+      ]
+    }
+  },
+  "18934": {
+    "id": 18934,
+    "aegisName": "Fox_Ears_Bell_Ribbon",
+    "name": "Fox Ear Bell Ribbon [1]",
+    "unidName": "Hairband",
+    "resName": "ACCESSORY_FOX_EARS_DROP_RIBBON",
+    "description": "หมวกหูจิ้งจอกสุดน่ารัก\nAGI + 2.\nเพิ่มความเร็วในการโจมตี (ลดดีเลย์หลังการโจมตีลง 10%)\nเมื่อโจมตีทางกายภาพ, มีโอกาสที่จะกลายร่างเป็น Moonlight Flower นาน 5 วินาที\nตอนกลายร่าง CRI+100, เพิ่มพลังโจมตีทางกายภาพระยะไกลขึ้น 5%\nทุกๆ การอัพเกรด 1 ขั้น เพิ่มอัตราในการกลายร่างเป็น Moonlight Flower ขึ้นเล็กน้อย\nเมื่ออัพเกรดตั้งแต่ขั้น 6 ขึ้นไป, เมื่อกลายร่างเป็น Moonlight Flower จะเพิ่มพลังโจมตีทางกายภาพระยะไกล 1% ทุกๆ การอัพเกรด 1 ขั้น\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777774^000000\nตำแหน่ง : ^777777Upper ^000000น้ำหนัก : ^77777740^000000\nเลเวลที่ต้องการ : ^77777750^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 4,
+    "weight": 40,
+    "requiredLevel": 50,
+    "location": "Upper",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "agi": [
+        "2"
+      ],
+      "aspdPercent": [
+        "10"
+      ],
+      "chance__cri": [
+        "100"
+      ],
+      "chance__range": [
+        "5",
+        "6===1",
+        "7===1",
+        "8===1",
+        "9===1",
+        "10===1",
+        "11===1",
+        "12===1"
+      ]
+    }
+  },
+  "18962": {
+    "id": 18962,
+    "aegisName": "Panda_Balloon",
+    "name": "Panda Balloon",
+    "unidName": "Accessory",
+    "resName": "ACCESSORY_PANDA_BALLOON",
+    "description": "แพนด้าน่ารัก ตัวโตแล้ว\nAll State +1, ASPD +1\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 20,
+    "requiredLevel": 1,
+    "location": "Lower",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "allStatus": [
+        "1"
+      ],
+      "aspd": [
+        "1"
+      ]
+    }
+  },
+  "2589": {
+    "id": 2589,
+    "aegisName": "Fallen_Angel_Wing",
+    "name": "Fallen Angel Wing [1]",
+    "unidName": "Garment",
+    "resName": "타락천사의날개",
+    "description": "ปีกนางฟ้าขนาดใหญ่สีดำของนางฟ้าตกสวรรค์\nAll State + 1.\nทุกๆ Base STR 20 ATK + 1,\nทุกๆ Base INT 20 MATK + 1,\nทุกๆ Base VIT 20 ทนทานต่อการโจมตีธาตุ Neutral 1%,\nทุกๆ Base AGI 20 เพิ่มความเร็วในการโจมตี (ลดดีเลย์หลังการโจมตี 1%),\nทุกๆ Base DEX 20 เพิ่มพลังโจมตีระยะไกล 1%\nทุกๆ Base LUK 20 เพิ่ม Critical Damage 1%\nประเภท: ^777777Garment^000000 พลังป้องกัน : ^77777718^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 18,
+    "weight": 20,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "allStatus": [
+        "1"
+      ],
+      "atk": [
+        "SUM[str==20]---1"
+      ],
+      "matk": [
+        "SUM[int==20]---1"
+      ],
+      "aspdPercent": [
+        "SUM[agi==20]---1"
+      ],
+      "range": [
+        "SUM[dex==20]---1"
+      ],
+      "criDmg": [
+        "SUM[luk==20]---1"
+      ]
+    }
+  },
+  "1185": {
+    "id": 1185,
+    "aegisName": "Violet_Fear",
+    "name": "Violet Fear [2]",
+    "unidName": "Two-Handed Sword",
+    "resName": "바이올렛피어",
+    "description": "ดาบสองมือขนาดใหญ่สีม่วงที่ทำจาก Twin Sword ของ Naght Sieger\nมีโอกาสเล็กน้อยที่จะไม่คิดพลังป้องกันของศัตรู เมื่อทำการโจมตี\nมีโอกาสที่จะร่ายสกิล Lv. 3 Meteor Storm, Lv. 5, Frost Nova เมื่อทำการโจมตี\nประเภท : ^777777Two-Handed Sword^000000 พลังโจมตี : ^777777275^000000\nน้ำหนัก : ^777777220^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^77777780^000000\nอาชีพ : ^777777High Swordman Cls^000000",
+    "slots": 2,
+    "itemTypeId": 1,
+    "itemSubTypeId": 258,
+    "itemLevel": 4,
+    "attack": 275,
+    "defense": null,
+    "weight": 220,
+    "requiredLevel": 80,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "LordKnight",
+      "LordKnightAwake",
+      "Paladin",
+      "PaladinAwake"
+    ],
+    "script": {}
   }
 }
