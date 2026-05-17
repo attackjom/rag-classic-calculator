@@ -64010,5 +64010,180 @@
       "PaladinAwake"
     ],
     "script": {}
+  },
+  "24371": {
+    "id": 24371,
+    "aegisName": "S_MortalBlow_Earring",
+    "flavorText": null,
+    "name": "Mortal Blow Shadow Earring",
+    "unidName": null,
+    "resName": "이어링쉐도우",
+    "unidResName": null,
+    "description": "ต่างหูศักดิ์สิทธิ์ที่เล่าขานกันว่าสามารถปกป้องผู้สวมใส่ได้ และช่วยดึงศักยภาพแฝงของผู้สวมใส่ออกมา\nCritical Damage + 1%\nเมื่ออัพเกรดถึงขั้น 7 Critical Damage + 1%\nเมื่ออัพเกรดถึงขั้น 9 Critical Damage + 1%\nประเภท : ^777777Shadow Equipment^000000\nตำแหน่ง : ^777777Earrings^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 529,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "criDmg": [
+        "1",
+        "7===1",
+        "9===1"
+      ]
+    }
+  },
+  "24372": {
+    "id": 24372,
+    "aegisName": "S_MortalBlow_Pendent",
+    "flavorText": null,
+    "name": "Mortal Blow Shadow Pendant",
+    "unidName": null,
+    "resName": "펜던트쉐도우",
+    "unidResName": null,
+    "description": "สร้อยคอศักดิ์สิทธิ์ที่เล่าขานกันว่าสามารถปกป้องผู้สวมใส่ได้ และช่วยดึงศักยภาพแฝงของผู้สวมใส่ออกมา\nCritical Damage + 1%\nเมื่ออัพเกรดถึงขั้น 7 Critical Damage + 1%\nเมื่ออัพเกรดถึงขั้น 9 Critical Damage + 1%\nประเภท : ^777777Shadow Equipment^000000\nตำแหน่ง : ^777777Pendant^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 530,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "criDmg": [
+        "1",
+        "7===1",
+        "9===1"
+      ]
+    }
+  },
+  "24370": {
+    "id": 24370,
+    "aegisName": "S_MortalBlow_Weapon",
+    "flavorText": null,
+    "name": "Mortal Blow Shadow Weapon",
+    "unidName": null,
+    "resName": "웨폰쉐도우",
+    "unidResName": null,
+    "description": "ถุงมือที่สวมใส่ที่มือข้างที่ใช้ถืออาวุธ เพื่อดึงศักยภาพแฝงของผู้สวมใส่ออกมา\nCritical Damage + 2%\nเมื่ออัพเกรดถึงขั้น 7 Critical Damage + 2%\nเมื่ออัพเกรดถึงขั้น 9 Critical Damage + 3%\nเมื่อสวมใส่ร่วมกับ Mortal Blow Shadow Earring, Mortal Blow Shadow Pendant, Critical Damage + 2%\nเมื่อขั้นอัพเกรด ^32CD32Mortal Blow Shadow (Weapon, Earrings, Pendant)^000000 รวมกันตั้งแต่ 25 ขึ้นไป, Critical Damage + 10%\nเมื่อขั้นอัพเกรด ^32CD32Mortal Blow Shadow (Weapon, Earrings, Pendant)^000000 รวมกันตั้งแต่ 30 ขึ้นไป, ASPD + 3\nประเภท : ^777777Shadow Equipment^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 280,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "criDmg": [
+        "2",
+        "7===2",
+        "9===3",
+        "EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]===2",
+        "EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowWeapon,shadowearring,shadow Pendant]==10"
+      ],
+      "aspd": [
+        "EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowWeapon,shadowearring,shadow Pendant]==3"
+      ]
+    }
+  },
+  "13170": {
+    "id": 13170,
+    "aegisName": "Lever_Action_Rifle",
+    "flavorText": null,
+    "name": "Lever Action Rifle [2]",
+    "unidName": null,
+    "resName": "레버액션라이플",
+    "unidResName": null,
+    "description": "ปืนไรเฟิลที่มีประสิทธิภาพสูง ลำกล้องปืนถูกประดับอย่างงดงามเพื่อดึงดูด Gunslinger ทุกคนที่เห็นมันและยังสามารถทำให้ยิงทะลุทะลวงศัตรูได้ด้วย\nแต่จุดอ่อนของมันก็คือต้องใช้เวลานานในการขึ้นลำกล้องใหม่และยิง\nHIT+ 20, Cri+ 50, ASPD ลดลง 5%\nประเภท : ^777777Rifle^000000\nพลังโจมตี : ^777777138^000000\nน้ำหนัก : ^77777777^000000\nอาวุธเลเวล : ^7777773^000000\nเลเวลที่ต้องการ : ^77777770^000000\nอาชีพ : ^777777Gunslinger เท่านั้น^000000",
+    "slots": 2,
+    "itemTypeId": 1,
+    "itemSubTypeId": 274,
+    "itemLevel": null,
+    "attack": 138,
+    "defense": null,
+    "weight": 77,
+    "requiredLevel": 70,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Gunslinger"
+    ],
+    "script": {
+      "hit": [
+        "20"
+      ],
+      "cri": [
+        "50"
+      ],
+      "aspd": [
+        "-5"
+      ]
+    }
+  },
+  "1636": {
+    "id": 1636,
+    "aegisName": "Thorn_Staff",
+    "flavorText": null,
+    "name": "Thorn Staff of Darkness",
+    "unidName": null,
+    "resName": "해골지팡이",
+    "unidResName": null,
+    "description": "ไม้เท้าที่ปกคลุมด้วยพืชหนาม มีพลังเวทย์ซ่อนอยู่\nMATK + 160, INT + 3, DEX + 3\nลดพลังป้องกันเวทย์ของเป้าหมายขึ้นอยู่กับระดับการอัพเกรด\nลด Delayหลังการใช้สกิล 3% ทุกๆ 2 การอัพเกรด\nประเภท : ^777777Rod^000000\nพลังโจมตี : ^77777760^000000\nน้ำหนัก : ^77777770^000000\nธาตุ : ^777777Shadow^000000\nLv ของอาวุธ : ^7777774^000000\nLv ที่ต้องการ : ^77777775^000000\nอาชีพ : ^777777High Mage, Acolyte Cls^000000",
+    "slots": 0,
+    "itemTypeId": 1,
+    "itemSubTypeId": 265,
+    "itemLevel": null,
+    "attack": 60,
+    "defense": null,
+    "weight": 70,
+    "requiredLevel": 75,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Wizard",
+      "Acolyte"
+    ],
+    "script": {
+      "matk": [
+        "160"
+      ],
+      "int": [
+        "3"
+      ],
+      "dex": [
+        "3"
+      ],
+      "m_pene_class_all": [
+        "1---1"
+      ],
+      "acd": [
+        "2---3"
+      ]
+    }
   }
 }
