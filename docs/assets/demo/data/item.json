@@ -464,6 +464,34 @@
     ],
     "script": {}
   },
+  "1309": {
+    "id": 1309,
+    "aegisName": "Orcish_Axe_",
+    "flavorText": null,
+    "name": "Orcish Axe [4]",
+    "unidName": null,
+    "resName": "오키쉬액스",
+    "unidResName": null,
+    "description": "ขวานที่ทำขึ้นโดยช่างเผ่า Orc ให้กับนักรบในเผ่าใช้\nประเภท : ^777777Axe^000000 พลังโจมตี : ^77777775^000000\nน้ำหนัก : ^777777150^000000\nเลเวลอาวุธ : ^7777773^000000\nเลเวลที่ต้องการ : ^7777773^000000\nอาชีพ : ^777777Novice, Swordman Cls, Merchant Cls, Assassin Cls^000000",
+    "slots": 4,
+    "itemTypeId": 1,
+    "itemSubTypeId": 261,
+    "itemLevel": null,
+    "attack": 75,
+    "defense": null,
+    "weight": 150,
+    "requiredLevel": 3,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Novice",
+      "Swordman",
+      "Merchant",
+      "Assassin"
+    ],
+    "script": {}
+  },
   "1326": {
     "id": 1326,
     "aegisName": "War_Axe_IL",
@@ -64147,11 +64175,11 @@
         "2",
         "7===2",
         "9===3",
-        "EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]===2",
-        "EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowWeapon,shadowearring,shadowPendant]==10"
+        "EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]2",
+        "EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowWeapon,shadowEarring,shadowPendant==25]10"
       ],
       "aspd": [
-        "EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowWeapon,shadowearring,shadowPendant]==3"
+        "EQUIP[Mortal Blow Shadow Earring&&Mortal Blow Shadow Pendant]REFINE[shadowWeapon,shadowEarring,shadowPendant==30]3"
       ]
     }
   },
@@ -64426,5 +64454,365 @@
         "9===1"
       ]
     }
+  },
+  "16000": {
+    "id": 16000,
+    "aegisName": "Erde",
+    "flavorText": null,
+    "name": "Erde [2]",
+    "unidName": null,
+    "resName": "에르데",
+    "unidResName": null,
+    "description": "กระบองที่ได้แรงบรรดาลใจมาจากรูปร่างของงู ซึ่งเป็นสัญลักษณ์ของน้ำพุแห่งปัญญา\nMSP + 50.\nความแรงของสกิล 'Acid Terror' และ 'Demonstration' เพิ่มขึ้น 20% เพิ่มความสามารถในการฟื้นฟูของโพชั่น 10%\nประเภท : ^777777Mace^000000\nพลังโจมตี : ^777777130^000000\nน้ำหนัก : ^77777750^000000\nอาวุธ Lv : ^7777773^000000\nเลเวลที่ต้องการ : ^77777750^000000\nอาชีพ : ^777777Hi-Swordman/Hi-Merchant/Hi-Acolyte Cls^000000",
+    "slots": 2,
+    "itemTypeId": 1,
+    "itemSubTypeId": 263,
+    "itemLevel": null,
+    "attack": 130,
+    "defense": null,
+    "weight": 50,
+    "requiredLevel": 50,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Swordman",
+      "Merchant",
+      "Acolyte"
+    ],
+    "script": {}
+  },
+  "15093": {
+    "id": 15093,
+    "aegisName": "Hero_Plate",
+    "flavorText": null,
+    "name": "Hero Plate [1]",
+    "unidName": null,
+    "resName": "용사의플레이트",
+    "unidResName": null,
+    "description": "MDEF +5\nMaxHP, MaxSP เพิ่ม 5%\nATK +10, MATK +10, HIT +10, FLEE +10\nพลังโจมตีของ Brandish Spear เพิ่มขึ้น 10%\nพลังโจมตีของ  Holy Cross เพิ่มขึ้น 10%\nเมื่อทำการโจมตีทางกายภาพ มีโอกาสต่ำที่จะเปิดใช้งานการฮีลอัตโนมัติ Lv 10 และ Stormgust Lv 10\nโอกาสที่จะเปิดใช้งานความสามารถเพิ่มขึ้น ตามค่าอัปเกรดของอุปกรณ์\nประเภท : ^777777Armor^000000 ป้องกัน : ^77777760^000000\nน้ำหน้ก : ^777777400^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ :  High Swordman Cls",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 120,
+    "weight": 400,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Swordman"
+    ],
+    "script": {
+      "mdef": [ "5" ],
+      "hpPercent": [ "5" ],
+      "spPercent": [ "5" ],
+      "atk": [ "10" ],
+      "matk": [ "10" ],
+      "hit": [ "10" ],
+      "flee": [ "10" ],
+      "Holy Cross": [
+        "10"
+      ],
+      "Brandish Spear": [
+        "10"
+      ]
+    }
+  },
+  "15094": {
+    "id": 15094,
+    "aegisName": "Hero_Magic_Coat",
+    "flavorText": null,
+    "name": "Hero Magic Coat [1]",
+    "unidName": null,
+    "resName": "용사의매직코트",
+    "unidResName": null,
+    "description": "MaxHP, MaxSP เพิ่ม 5%\nMATK +10, FLEE +10\nเพิ่มพลังดาเมจของสกิล Gravitational Field และ Heaven's Drive 10%\nหากอัปเกรดเลเวลเป็นเลขคี่ เวลาในการร่ายแปรผันจะเพิ่มขึ้น 20% และการร่ายจะไม่ถูกรบกวน\nหากอัปเกรดเลเวลเป็นเลขคู่ MDEF +1 และ เวลาในการร่ายแปรผันจะลดลง 1% ต่อทุกการอัพเกรดสองเลเวล\nประเภท : ^777777Armor^000000 ป้องกัน : ^77777725^000000\nน้ำหน้ก : ^77777780^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้: High Magician Cls",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 50,
+    "weight": 80,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Mage"
+    ],
+    "script": {
+      "hpPercent": [ "5" ],
+      "spPercent": [ "5" ],
+      "matk": [ "10" ],
+      "flee": [ "10" ],
+      "Gravitational Field": [ "10" ],
+      "Heaven's Drive": [ "10" ],
+      "vct": [ "2---1" ],
+      "mdef": [ "2---1" ]
+    }
+  },
+  "15095": {
+    "id": 15095,
+    "aegisName": "Hero_Judgement_Shawl",
+    "flavorText": null,
+    "name": "Hero Judgement Shawl [1]",
+    "unidName": null,
+    "resName": "용사의저지먼트숄",
+    "unidResName": null,
+    "description": "MaxHP, MaxSP +5%\nATK +10, MATK +10, HIT +10, FLEE +10\nเมื่ออัพเกรดถึงขั้น 7 เพิ่มการสร้างดาเมจของสกิล Asura Strike และ Magnus Exorcismus +10%\nเมื่ออัพเกรดถึงขั้น 8 ลดระยะเวลาดีเลย์ของสกิล Magnus Exorcismus 1 วินาที\nเมื่ออัพเกรดถึงขั้น 9 ลดระยะเวลาในการร่ายสกิล Asura Strike ลง 10% \nประเภท : ^777777Armor^000000 ป้องกัน : ^77777737^000000\nน้ำหน้ก : ^77777750^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ :High Acolyte Cls",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 77,
+    "weight": 50,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Acolyte"
+    ],
+    "script": {
+      "hpPercent": [ "5" ],
+      "spPercent": [ "5" ],
+      "atk": [ "10" ],
+      "matk": [ "10" ],
+      "hit": [ "10" ],
+      "flee": [ "10" ],
+      "Asura Strike": [ "10" ],
+      "Magnus Exorcismus": [ "10" ],
+      "cd__Magnus Exorcismus": [ "8===1" ],
+      "vct_Asura Strike": [ "9===10" ]
+    }
+  },
+  "15096": {
+    "id": 15096,
+    "aegisName": "Hero_Trade_Mail",
+    "flavorText": null,
+    "name": "Hero Trade Mail [1]",
+    "unidName": null,
+    "resName": "용사의트레이드메일",
+    "unidResName": null,
+    "description": "MDEF +5\nMaxHP, MaxSP เพิ่ม 5%; ATK +10, MATK +10\nในกรณีของ Base STR 90 ขึ้นไป ทุก ๆ การอัพเกรด 2 ขั้น STR +1\nในกรณีของ INT 90 ขึ้นไป ทุก ๆ การอัพเกรด 2 ขั้น INT +1,\nในกรณีของ VIT 90 ขึ้นไป ทุก ๆ การอัพเกรด 2 ขั้น VIT +1,\nในกรณีของ AGI 90 ขึ้นไป ทุก ๆ การอัพเกรด 2 ขั้น AGI +1,\nในกรณีของ DEX 90 ขึ้นไป ทุก ๆ การอัพเกรด 2 ขั้น DEX +1,\nในกรณีของ LUK 90 ขึ้นไป ทุก ๆ การอัพเกรด 2 ขั้น LUK +1.\nในการโจมตีทางกายภาพระยะประชิด มีโอกาสที่จะทำให้เป้าหมายอยู่ในสถานะ Stun, Poison, Silence หรือ Curse\nAutocasting rate โอกาสที่จะเปิดใช้งานความสามารถเพิ่มขึ้น ตามค่าอัปเกรดของอุปกรณ์\nประเภท : ^777777Armor^000000 ป้องกัน : ^77777750^000000\nน้ำหน้ก : ^77777750^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : High Merchant Cls",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 100,
+    "weight": 50,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Merchant"
+    ],
+    "script": {
+      "mdef": [ "5" ],
+      "hpPercent": [ "5" ],
+      "spPercent": [ "5" ],
+      "atk": [ "10" ],
+      "matk": [ "10" ],
+      "str": [
+        "2---1"
+      ],
+      "int": [ 
+        "2---1"
+      ],
+      "vit": [
+        "2---1"
+      ],
+      "agi": [
+        "2---1"
+      ],
+      "dex": [
+        "2---1"
+      ],
+      "luk": [
+        "2---1"
+      ]
+    }
+  },
+  "15097": {
+    "id": 15097,
+    "aegisName": "Hero_Hidden_Cloth",
+    "flavorText": null,
+    "name": "Hero Hidden Cloth [1]",
+    "unidName": null,
+    "resName": "용사의히든클로스",
+    "unidResName": null,
+    "description": "MaxHP, MaxSP +5%\nเพิ่มพลังดาเมจของสกิล Raid และ Soul Destroyer +10%\nเมื่อโจมตีกายภาพ มีโอกาสที่จะได้ CRIT +20, FLEE +20, ATK + 10%, MATK + 10% เป็นเวลา 10 วินาที\nโอกาสที่จะเปิดใช้งานความสามารถเพิ่มขึ้น ตามค่าอัปเกรดของอุปกรณ์\nประเภท : ^777777Armor^000000 ป้องกัน : ^77777735^000000\nน้ำหน้ก : ^77777720^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : High Thief Cls",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 70,
+    "weight": 20,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Thief"
+    ],
+    "script": {
+      "hpPercent": [ "5" ],
+      "spPercent": [ "5" ],
+      "Raid": [ "10" ],
+      "Soul Destroyer": [ "10" ],
+      "chance__atkPercent": [
+        "10"
+      ],
+      "chance__matkPercent": [
+        "10"
+      ],
+      "chance__cri": [
+        "20"
+      ],
+      "chance__flee": [
+        "20"
+      ]
+    }
+  },
+  "15098": {
+    "id": 15098,
+    "aegisName": "Hero_Taget_Suits",
+    "flavorText": null,
+    "name": "Hero Target Suit [1]",
+    "unidName": null,
+    "resName": "용사의타겟슈츠",
+    "unidResName": null,
+    "description": "MaxHP, MaxSP +5%\nAll Stats +1, ASPD +1; เพิ่มพลังดาเมจของการโจมตีกายภาพระยะไกล 3%\nเมื่อโจมตีทางกายภาพ มีโอกาสเปิดใช้งานสกิล Improve Concentration Lv 10\nเมื่อโจมตีทางกายภาพ มีโอกาสเปิดใช้งานสกิล Double Strafe Lv 10\nAutocasting rate โอกาสที่จะเปิดใช้งานความสามารถเพิ่มขึ้น ตามค่าอัปเกรดของอุปกรณ์\nประเภท : ^777777Armor^000000 ป้องกัน : ^77777760^000000\nน้ำหน้ก : ^77777720^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : High Archer Cls",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 513,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 60,
+    "weight": 20,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Archer"
+    ],
+    "script": {
+      "hpPercent": [
+        "5"
+      ],
+      "spPercent": [
+        "5"
+      ],
+      "allStatus": [
+        "1"
+      ],
+      "range": [
+        "3"
+      ]
+    }
+  },
+  "22035": {
+    "id": 22035,
+    "aegisName": "Vet_Nepen_Heel",
+    "flavorText": null,
+    "name": "Hero Nepenthes Boots [1]",
+    "unidName": null,
+    "resName": "용사네펜데스구두",
+    "unidResName": null,
+    "description": "รองเท้าที่ทำจากใบไม้ Nepenthes มีฤทธิ์ผ่อนคลายกล้ามเนื้อ\nลดเวลาในการร่ายแปรผันลง 10%\nเมื่ออัปเกรดถึง 8 จะลดลงเพิ่มอีก 5% หลังจากนั้นจะลดลงอีก 1% ทุกการอัปเกรดเลเวล)\nเมื่ออัปเกรดถึง 11 จะลดลงเพิ่มอีก 3% หลังจากนั้นจะลดลงอีก 3% ทุกครั้งที่อัปเกรดเลเวล (ทำได้จนถึงเลเวล 13)\nประเภท : ^777777Shoes^000000 ป้องกัน : ^77777710^000000\nน้ำหน้ก : ^77777730^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 10,
+    "weight": 30,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "vct": [
+        "10",
+        "8===5",
+        "9===1",
+        "10===1",
+        "11===4",
+        "12===4",
+        "13===4"
+      ]
+    }
+  },
+  "22036": {
+    "id": 22036,
+    "aegisName": "Vet_SliverFox_Boots",
+    "flavorText": null,
+    "name": "Heroic Silver Fox Leather Boots [1]",
+    "unidName": null,
+    "resName": "용사은빛여우부츠",
+    "unidResName": null,
+    "description": "Fox Fur ช่วยทำให้เดินอย่างปลอดภัย ส่วนที่เป็น Silver จะช่วยให้เดินได้เร็วขึ้น\nพลังโจมตีระยะไกล +5%\nเมื่ออัปเกรดถึง 8 จะเพิ่มพลังโจมตีระยะไกลอีก 1% ในทุกการอัปเกรดเลเวล (จะได้จนถึงเลเวล 13)\nประเภท : ^777777Shoes^000000 ป้องกัน : ^77777715^000000\nน้ำหน้ก : ^77777730^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 15,
+    "weight": 30,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "range": [
+        "5",
+        "8===1",
+        "9===1",
+        "10===1",
+        "11===1",
+        "12===1",
+        "13===1"
+      ]
+    }
+  },
+  "22037": {
+    "id": 22037,
+    "aegisName": "Vet_Ungo_Boots",
+    "flavorText": null,
+    "name": "Hero Ungoliant Boots [1]",
+    "unidName": null,
+    "resName": "용사운골리안트부츠",
+    "unidResName": null,
+    "description": "บูทที่ย้อมด้วยของเหลวจากตัว Ungoliant มีผลช่วยให้จิตใจปลอดโปร่ง และมีสมาธิ\nเมื่อใช้สกิล จะเสีย SP 5%\nหากอัปเกรดถึง 8 SP จะลดลงอีก 1% ในทุกการอัปเกรด (จนถึงเลเวล 13)\nประเภท : ^777777Shoes^000000 ป้องกัน : ^77777710^000000\nน้ำหน้ก : ^77777730^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 10,
+    "weight": 30,
+    "requiredLevel": 160,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {}
   }
 }
