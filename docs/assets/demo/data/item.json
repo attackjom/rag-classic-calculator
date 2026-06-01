@@ -476,7 +476,7 @@
     "slots": 4,
     "itemTypeId": 1,
     "itemSubTypeId": 261,
-    "itemLevel": null,
+    "itemLevel": 3,
     "attack": 75,
     "defense": null,
     "weight": 150,
@@ -63769,26 +63769,27 @@
       ]
     }
   },
-  "490033": {
-    "id": 490033,
-    "aegisName": "Fallen_Angel_tear",
-    "name": "Fallen Angel's Tear [1]",
-    "unidName": "Earring",
+  "490581": {
+    "id": 490581,
+    "aegisName": null,
+    "flavorText": null,
+    "name": "Fallen Angel Tear [1]",
+    "unidName": null,
     "resName": "여신의눈물",
-    "description": "อัญมณีที่เกิดจากการรวมตัวของหยาดน้ำตาของเทวดาตกสวรรค์  \nATK+6%, MATK+6%, Hit+15.\nเมื่อใส่ร่วมกับ Fallen Angel Wing ที่อัพเกรดถึงขั้น 9 ขึ้นไป  \nเพิ่มพลังป้องกัน Stone และ Curse +40%.\nเมื่อใส่ร่วมกับ Fallen Angel Hairband ที่อัพเกรดถึงขั้น 9 ขึ้นไป  \nลดระยะเวลาร่ายแบบผันแปร 5% \nเมื่อใส่ร่วมกับ Fallen Angel Armor ที่อัพเกรดถึงขั้น 9 ขึ้นไป  \nMaxHp+8%.\nประเภท: ^777777Accessory^000000  พลังป้องกัน: ^7777770^000000\nน้ำหนัก: ^77777710^000000\nเลเวลที่ต้องการ: ^77777730^000000\nอาชีพที่ใส่ได้: ^777777ทุกอาชีพ^000000",
+    "unidResName": null,
+    "description": "อัญมณีที่เกิดจากการรวมตัวของหยาดน้ำตาของเทวดาตกสวรรค์\nATK+6%, MATK+6%, Hit+15\n\nเมื่ออัพเกรดถึงขั้น 7 Perfect Hit+10 ,Hit+30\nเมื่ออัพเกรดถึงขั้น 9 ลดระยะเวลาร่ายแบบผันแปร 5%\n\nเมื่อสวมใส่ร่วมกับ Fallen Angel Wing ที่อัพเกรดถึงขั้น 9 ขึ้นไป\nเพิ่มความต้านทานสถานะ Stone และ Curse 100%\nเมื่อสวมใส่ร่วมกับ Fallen Angel Armor ที่อัพเกรดถึงขั้น 9 ขึ้นไป\nMaxHp + 8%\nประเภท : ^777777Accessory^000000  พลังป้องกัน : ^7777773^000000\nน้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 1,
     "itemTypeId": 2,
     "itemSubTypeId": 517,
     "itemLevel": null,
     "attack": null,
-    "defense": 0,
+    "defense": 3,
     "weight": 10,
-    "requiredLevel": 30,
+    "requiredLevel": 1,
     "location": null,
     "compositionPos": null,
-    "usableClass": [
-      "all"
-    ],
+    "canGrade": false,
+    "usableClass": [ "all" ],
     "script": {
       "atkPercent": [
         "6"
@@ -63797,19 +63798,14 @@
         "6"
       ],
       "hit": [
-        "15"
+        "15",
+        "7===30"
       ],
-      "p_class_all": [
-        "EQUIP[Fallen Angel Wings]===4"
-      ],
-      "m_class_all": [
-        "EQUIP[Fallen Angel Wings]===4"
+      "perfectHit": [
+        "7===10"
       ],
       "vct": [
-        "EQUIP[Fallen Angel Hairband]REFINE[headUpper==9]===5"
-      ],
-      "hpPercent": [
-        "EQUIP[Fallen Angel Armor]REFINE[armor==9]===8"
+        "9===5"
       ]
     }
   },
@@ -64195,7 +64191,7 @@
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 274,
-    "itemLevel": null,
+    "itemLevel": 3,
     "attack": 138,
     "defense": null,
     "weight": 77,
@@ -64230,7 +64226,7 @@
     "slots": 0,
     "itemTypeId": 1,
     "itemSubTypeId": 265,
-    "itemLevel": null,
+    "itemLevel": 4,
     "attack": 60,
     "defense": null,
     "weight": 70,
@@ -64310,7 +64306,7 @@
     "slots": 1,
     "itemTypeId": 1,
     "itemSubTypeId": 267,
-    "itemLevel": null,
+    "itemLevel": 3,
     "attack": 95,
     "defense": null,
     "weight": 200,
@@ -64442,7 +64438,9 @@
     "compositionPos": null,
     "canGrade": false,
     "usableClass": [
-      "all"
+      "Archer",
+      "Mage",
+      "Acolyte"
     ],
     "script": {
       "mdef": [
@@ -64452,6 +64450,9 @@
       "perfectDodge": [
         "7===1",
         "9===1"
+      ],
+      "vct": [
+        "10"
       ]
     }
   },
@@ -64467,7 +64468,7 @@
     "slots": 2,
     "itemTypeId": 1,
     "itemSubTypeId": 263,
-    "itemLevel": null,
+    "itemLevel": 4,
     "attack": 130,
     "defense": null,
     "weight": 50,
@@ -64814,5 +64815,200 @@
       "all"
     ],
     "script": {}
+  },
+    "16024": {
+    "id": 16024,
+    "aegisName": "Quadrille_",
+    "flavorText": null,
+    "name": "Quadrille [2]",
+    "unidName": null,
+    "resName": "쿼드릴",
+    "unidResName": null,
+    "description": "กระบองชุบเหล็กกล้า\nหนักแต่เหมาะมือ\nโจมตี ธาตุ Undead , ธาตุ Earth , Race Demi-Human แรงขึ้น 10%\nประเภท : ^777777Mace^000000 พลังโจมตี : ^777777165^000000\nน้ำหนัก : ^77777790^000000\nLv ของอาวุธ : ^7777774^000000\nLv ที่ต้องการ : ^77777740^000000\nอาชีพ : ^777777Acolyte Cls^000000",
+    "slots": 2,
+    "itemTypeId": 1,
+    "itemSubTypeId": 263,
+    "itemLevel": 4,
+    "attack": 165,
+    "defense": null,
+    "weight": 90,
+    "requiredLevel": 40,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Acolyte"
+    ],
+    "script": {
+      "p_race_demihuman": [
+        "10"
+      ],
+      "p_element_undead": [
+        "10"
+      ],
+      "p_element_earth": [
+        "10"
+      ]
+    }
+  },
+  "24021": {
+    "id": 24021,
+    "aegisName": "S_Magical_Earring",
+    "flavorText": null,
+    "name": "Magical Shadow Earring",
+    "unidName": null,
+    "resName": "이어링쉐도우",
+    "unidResName": null,
+    "description": "ต่างหูศักดิ์สิทธิ์ที่เชื่อ\nกันว่าจะช่วยเพิ่มความ\nสามารถให้กับผู้สวมใส่\nลด Variable Cast Time 1%\nอัพเกรด+7 ขึ้นไป ลด Variable Cast Time 2%\n[Set] ^32CD32Magical Shadow\n(Weapon,Earring,Pendant)^000000\nเพิ่ม MATK ตามระดับการ\nอัพเกรดรวมของเซ็ต\nหากระดับอัพเกรดรวมในเซ็ต\nมากกว่า 23 ขึ้นไป MATK +1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Earring^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 529,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "vct": [
+        "1",
+        "7===2"
+      ]
+    }
+  },
+  "24022": {
+    "id": 24022,
+    "aegisName": "S_Magical_Weapon",
+    "flavorText": null,
+    "name": "Magical Shadow Weapon",
+    "unidName": null,
+    "resName": "웨폰쉐도우",
+    "unidResName": null,
+    "description": "ถุงมือที่ช่วยเพิ่มความ\nสามารถให้กับผู้สวมใส่เมื่อ\nใช้กับมือข้างที่จับอาวุธ\nMATK +10\nอัพเกรด+7 ขึ้นไป MATK +1%\n[Set] ^32CD32Magical Shadow\n(Weapon,Earring,Pendant)^000000\nเพิ่ม MATK ตามระดับการ\nอัพเกรดรวมของเซ็ตหาก\nระดับอัพเกรดรวมในเซ็ต\nมากกว่า 23 ขึ้นไป MATK +1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Weapon^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 280,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "matk": [
+        "10",
+        "EQUIP[Magical Shadow Pendant&&Magical Shadow Earring]REFINE[shadowWeapon,shadowEarring,shadowPendant==1]---1"
+      ],
+      "matkPercent": [
+        "7===1",
+        "EQUIP[Magical Shadow Pendant&&Magical Shadow Earring]REFINE[shadowWeapon,shadowEarring,shadowPendant==23]1"
+      ]
+    }
+  },
+  "24023": {
+    "id": 24023,
+    "aegisName": "S_Magical_Pendant",
+    "flavorText": null,
+    "name": "Magical Shadow Pendant",
+    "unidName": null,
+    "resName": "펜던트쉐도우",
+    "unidResName": null,
+    "description": "สร้อยคอศักดิ์สิทธิ์ที่\nเชื่อกันว่าจะช่วยเพิ่มความ\nสามารถให้กับผู้สวมใส่\nSP +50\nอัพเกรด+7 ขึ้นไป MSP +1%\n[Set] ^32CD32Magical Shadow\n(Weapon,Earring,Pendant)^000000\nเพิ่ม MATK ตามระดับการ\nอัพเกรดรวมของเซ็ตหาก\nระดับอัพเกรดรวมในเซ็ต\nมากกว่า 23 ขึ้นไป MATK +1%\nประเภท : ^777777Shadow^000000\nตำแหน่ง : ^777777Pendant^000000 น้ำหนัก : ^7777770^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 10,
+    "itemSubTypeId": 530,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 0,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "sp":[
+        "50"
+      ],
+      "spPercent": [
+        "7===1"
+      ]
+    }
+  },
+  "1181": {
+    "id": 1181,
+    "aegisName": "Tae_Goo_Lyeon",
+    "flavorText": null,
+    "name": "Tae Goo Lyeon [2]",
+    "unidName": null,
+    "resName": "태구련",
+    "unidResName": null,
+    "description": "ดาบนี้เป็นที่รู้จักในชื่อดาบแห่งผู้กล้าตะวันออก\nPerfect Dodge+10\nถ้าผู้ใช้ Job Lv 70 มีโอกาสได้รับ ATK + 50 เป็นเวลา 10 วินาที เมื่อทำการโจมตี\nถ้าอัพเกรด +9 ขึ้นไป, ลด SP และ delay ในการใช้สกิลลง 20%\nประเภท : ^777777Two-Handed Sword^000000\nพลังโจมตี : ^777777250^000000\nน้ำหนัก : ^777777200^000000\nธาตุ : ^777777Neutral^000000\nLv ของอาวุธ : ^7777774^000000\nLv ที่ต้องการ : ^77777790^000000\nอาชีพ : ^777777High Swordman Cls^000000",
+    "slots": 2,
+    "itemTypeId": 1,
+    "itemSubTypeId": 258,
+    "itemLevel": 4,
+    "attack": 250,
+    "defense": null,
+    "weight": 200,
+    "requiredLevel": 90,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Swordman"
+    ],
+    "script": {
+      "perfectDodge": [
+        "10"
+      ],
+      "acd": [
+        "9===20"
+      ],
+      "chance__atk": [
+        "50"
+      ]
+    }
+  },
+  "13046": {
+    "id": 13046,
+    "aegisName": "Krieg",
+    "flavorText": null,
+    "name": "Krieg [3]",
+    "unidName": null,
+    "resName": "크리그",
+    "unidResName": null,
+    "description": "มีดนี้สร้างความเจ็บปวดให้กับเป้าหมายจนตายด้วยหนามที่แหลมคม\nเมื่อใช้สกิล 'Back Stab', โอกาสติดสถานะ bleeding เพิ่มขึ้น, และความแรงเพิ่มขึ้น 15%\nประเภท : ^777777Dagger^000000\nพลังโจมตี : ^777777110^000000\nน้ำหนัก : ^77777750^000000\nLv ของอาวุธ : ^7777772^000000\nLv ที่ต้องการ : ^77777750^000000\nอาชีพ : ^777777High Thief Cls^000000",
+    "slots": 3,
+    "itemTypeId": 1,
+    "itemSubTypeId": 256,
+    "itemLevel": 2,
+    "attack": 110,
+    "defense": null,
+    "weight": 50,
+    "requiredLevel": 50,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Thief"
+    ],
+    "script": {
+      "Back Stab": [
+        "15"
+      ]
+    }
   }
 }
