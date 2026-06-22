@@ -6536,7 +6536,7 @@
       "hpPercent": [
         "-50"
       ],
-      "chance__flatDmg": [
+      "chance__atkPercent": [
         "100"
       ],
       "chance__aspdPercent": [
@@ -7684,6 +7684,35 @@
       "hpPercent": [
         "-50",
         "15===15"
+      ]
+    }
+  },
+  "4505": {
+    "id": 4505,
+    "aegisName": "Scaraba_Card",
+    "flavorText": null,
+    "name": "Scaraba Card",
+    "unidName": null,
+    "resName": "이름없는카드",
+    "unidResName": null,
+    "description": "MATK + 20, MSP - 1%.\nประเภท : ^777777Card^000000\nบริเวณที่สวมใส่ : ^777777Accessory^000000\nน้ำหนัก : ^7777771^000000",
+    "slots": 0,
+    "itemTypeId": 6,
+    "itemSubTypeId": 0,
+    "itemLevel": null,
+    "attack": null,
+    "defense": null,
+    "weight": 1,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": 136,
+    "cardPrefix": "of Mad Witch",
+    "script": {
+      "matk": [
+        "20"
+      ],
+      "spPercent": [
+        "-1"
       ]
     }
   },
@@ -21678,9 +21707,7 @@
     "compositionPos": null,
     "skip": true,
     "usableClass": [
-      "Novice",
       "Swordman",
-      "Acolyte",
       "Merchant"
     ],
     "script": {
@@ -21700,19 +21727,8 @@
         "13===25",
         "14===27",
         "15===29",
-        "level:80===5",
-        "level:90===5",
-        "level:100===5",
-        "level:110===5",
-        "level:120===5",
-        "level:130===5",
-        "level:140===5",
-        "level:150===5",
-        "level:160===5",
-        "level:170===5",
-        "level:180===5",
-        "level:190===5",
-        "level:200===5"
+        "SUM[level==70]===-35",
+        "SUM[level==10]---5"
       ]
     }
   },
@@ -26159,7 +26175,6 @@
     "requiredLevel": 1,
     "location": "Lower",
     "compositionPos": null,
-    "skip": true,
     "usableClass": [
       "all"
     ],
@@ -31957,91 +31972,6 @@
       ]
     }
   },
-  "22257": {
-    "id": 22257,
-    "aegisName": "CUSTOM_Racing_Shoes",
-    "name": "Racing Shoes [1]",
-    "unidName": "Racing Shoes",
-    "resName": "축구화",
-    "description": "^ff0000ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nรองเท้าสำหรับนักวิ่ง\n\nASPD +10%\nเมื่ออัพเกรดตั้งแต่ 10 ขึ้นไป ลดระยะเวลาร่ายแบบคงที่ 0.3 วินาที\nเมื่ออัพเกรดตั้งแต่ 12 ขึ้นไป ลดระยะเวลาร่ายแบบคงที่ 0.2 วินาที\n\nเมื่อสวมใส่กับ Racing Cap,\nเมื่อค่าอัพเกรดรวมกันตั้งแต่ 21 ขึ้นไป จะได้รับความสามารถดังนี้\n\n- Racing Cap(Mechanic)\nเมื่อโจมตีทางกายภาพทั่วไป มีโอกาส 12% ที่จะใช้สกิล Power Swing Lv. 10 โดยอัตโนมัติ\n\n- Racing Cap(Geneticist)\nเพิ่ม Damage สกิล Cart Tornado 30%\nลด Cooldown สกิล Cart Tornado 0.3 วินาที\n\n- Racing Cap(Guillotine Cross)\nเมื่อโจมตีทางกายภาพทั่วไป มีโอกาส 1.5% ที่จะได้รับผลของ Turisus Runestone เป็นเวลา 10 วินาที\n\n- Racing Cap(Shadow Chaser)\nMATK +100, เมื่อโจมตีทางกายภาพทั่วไป มีโอกาส 5%\nที่จะใช้สกิล Meteor Storm และ Lord of Vermilion Lv. 5 โดยอัตโนมัติ\n\n- Racing Cap(Warlock)\nลดระยะเวลาร่ายแบบแปรผันสกิล Mystical Amplification 50%\nเมื่อใช้สกิล Mystical Amplification, \nเพิ่ม Damage สกิล Tetra Vortex 15% เป็นเวลา 5 วินาที\n\n- Racing Cap(Sorcerer)\nเพิ่ม Damage สกิล Cold Bolt 50%\nเมื่อโจมตีทั่วไป มีโอกาสที่จะเพิ่ม Damage สกิลประเภท Bolt ทั้งหมด 100% เป็นเวลา 10 วินาที\n\n- Racing Cap(Rune Knight)\nเมื่อโจมตีทั่วไป มีโอกาส 5% ที่จะใช้สกิล Sonic Wave Lv. 5\n\n- Racing Cap(Royal Guard)\nลด Cooldown สกิล Shield Press 0.5 วินาที\n\n- Racing Cap(Arch Bishop)\nเมื่อโจมตีทั่วไป มีโอกาส 1.5% ที่จะเพิ่ม Damage สกิล Adoramus 100% เป็นเวลา 5 วินาที\n\n- Racing Cap(Sura)\nเมื่อใช้สกิล Knuckle Arrow มีโอกาส 3% ที่จะเพิ่ม Damage ทางกายภาพต่อมอนสเตอร์ประเภท Boss 25% เป็นเวลา 10 วินาที\nลด Delay หลังใช้สกิล 10%\n\n- Racing Cap(Ranger)\nลด Cooldown สกิล Aimed Bolt 0.5 วินาที\nเพิ่ม Damage สกิล Aimed Bolt 15%\n\n- Racing Cap(Minstrel) & Racing Cap(Wanderer)\nเมื่อโจมตีทั่วไป มีโอกาส 1.5% ที่ ATK/MATK +200 เป็นเวลา 10 วินาที \n\n- Racing Cap(Gunslinger)\nเมื่อใช้สกิล Shatter Storm เพิ่ม Damage สกิล Vanishing Buster 30% เป็นเวลา 10 วินาที\n\n- Racing Cap(Ninja)\nลด Cooldown สกิล Swirling Petal 0.5 วินาที\n\n- Racing Cap(Super Novice)\nสามารถใช้สกิล Enchant Deadly Poison Lv. 5 ได้\n\n- Racing Cap(Summoner)\nลด Cooldown สกิล Catnip Meteor และ Lunatic Carrot Beat 1 วินาที\n\n- Racing Cap(Star Gladiator)\nCRI +15\nเมื่อใช้สกิล Seven Wind, All Status +20 เป็นเวลา 15 วินาที\n\n- Racing Cap(Soul Linker)\nลดระยะเวลาร่ายแบบแปรผัน 10%\nเมื่อใช้สกิล Seven Wind เพิ่ม Damage ทางเวทมนตร์ทุกธาตุ 30% เป็นเวลา 15 วินาที\nประเภท : ^777777Shoes^000000  พลังป้องกัน : ^77777710^000000\nน้ำหนัก : ^77777740^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
-    "slots": 1,
-    "itemTypeId": 2,
-    "itemSubTypeId": 516,
-    "itemLevel": null,
-    "attack": null,
-    "defense": 10,
-    "weight": 40,
-    "requiredLevel": 100,
-    "location": null,
-    "compositionPos": null,
-    "skip": true,
-    "script": {
-      "aspdPercent": [
-        "10"
-      ],
-      "fct": [
-        "10===0.3",
-        "12===0.2"
-      ],
-      "Cart Tornado": [
-        "EQUIP[Racing Cap(Genetic)]REFINE[headUpper,boot==21]===30"
-      ],
-      "cd__Cart Tornado": [
-        "EQUIP[Racing Cap(Genetic)]REFINE[headUpper,boot==21]===0.3"
-      ],
-      "matk": [
-        "EQUIP[Racing Cap(Shadow Chaser)]REFINE[headUpper,boot==21]===100"
-      ],
-      "vct__Mystical Amplification": [
-        "EQUIP[Racing Cap(Warlock)]REFINE[headUpper,boot==21]50"
-      ],
-      "Tetra Vortex": [
-        "EQUIP[Racing Cap(Warlock)]REFINE[headUpper,boot==21]15"
-      ],
-      "Cold Bolt": [
-        "EQUIP[Racing Cap(Sorcerer)]REFINE[headUpper,boot==21]50"
-      ],
-      "cd__Shield Press": [
-        "EQUIP[Racing Cap(Royal Guard)]REFINE[headUpper,boot==21]0.5"
-      ],
-      "acd": [
-        "EQUIP[Racing Cap(Sura)]REFINE[headUpper,boot==21]10"
-      ],
-      "cd__Aimed Bolt": [
-        "EQUIP[Racing Cap(Ranger)]REFINE[headUpper,boot==21]0.5"
-      ],
-      "Aimed Bolt": [
-        "EQUIP[Racing Cap(Ranger)]REFINE[headUpper,boot==21]15"
-      ],
-      "Vanishing Buster": [
-        "EQUIP[Racing Cap(Gunslinger)]REFINE[headUpper,boot==21]ACTIVE_SKILL[Shatter Storm]===30"
-      ],
-      "cd__Swirling Petal": [
-        "EQUIP[Racing Cap(Ninja)]REFINE[headUpper,boot==21]0.5"
-      ],
-      "cd__Catnip Meteor": [
-        "EQUIP[Racing Cap(Summoner)]REFINE[headUpper,boot==21]1"
-      ],
-      "cd__Lunatic Carrot Beat": [
-        "EQUIP[Racing Cap(Summoner)]REFINE[headUpper,boot==21]1"
-      ],
-      "cri": [
-        "EQUIP[Racing Cap(Star Gladiator)]REFINE[headUpper,boot==21]15"
-      ],
-      "allStatus": [
-        "EQUIP[Racing Cap(Star Gladiator)]REFINE[headUpper,boot==21]ACTIVE_SKILL[Seven Wind]===20"
-      ],
-      "vct": [
-        "EQUIP[Racing Cap(Soul Linker)]REFINE[headUpper,boot==21]10"
-      ],
-      "m_my_element_all": [
-        "EQUIP[Racing Cap(Soul Linker)]REFINE[headUpper,boot==21]ACTIVE_SKILL[Seven Wind]===30"
-      ]
-    },
-    "usableClass": [
-      "all"
-    ]
-  },
   "22259": {
     "id": 22259,
     "aegisName": null,
@@ -34954,15 +34884,15 @@
       "all"
     ],
     "script": {
-      "Sightless Mind": [
+      "Raid": [
         "20",
         "1---5"
       ],
       "p_size_all": [
-        "EQUIP[Rogue Shadow Shoes]USED[Rogue]===3"
+        "EQUIP[Rogue Shadow Shoes]===3"
       ],
       "m_size_all": [
-        "EQUIP[Rogue Shadow Shoes]USED[Rogue]===3"
+        "EQUIP[Rogue Shadow Shoes]===3"
       ]
     }
   },
@@ -46503,7 +46433,7 @@
     "name": "Mob Scarf",
     "unidName": "Accessory",
     "resName": "폭주의스카프",
-    "description": "สามารถใช้ Spell Breaker LV2 ได้  \nเมื่อใส่ร่วมกับ Sunglasses, Glasses  \nเพิ่มความทนทานจากการโจมตีของ Player + 2%  \nเมื่อทุกๆ 80 หน่วยของผลรวมค่าพื้นฐาน STR,LUK  \nเพิ่ม Damage เมื่อโจมตีมอนสเตอร์ทุกประเภท (ทั่วไป, Boss, Guardian) + 6%  \nCri + 5, Critical Damage + 10%.\nเมื่อทุกๆ 80 หน่วยของผลรวมค่าพื้นฐาน INT,DEX  \nMATK + 120, Variable Cast Time ลดลง 3%  \nเพิ่มอัตราการฟื้นฟู Heal 10%  \nเมื่อทุกๆ 80 หน่วยของผลรวมค่าพื้นฐาน AGI,VIT  \nเพิ่มความเร็วการโจมตี  (ลดดีเลย์หลังการโจมตี 5%), MAXHP + 5%, เพิ่มความทนทานจากการโจมตีจาก Player + 2%.\nประเภท : ^777777Helm^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower ^000000น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "description": "ผ้าปิดปากสีดำที่ถูกสวมใส่โดยจอมโจรแห่ง El Dicastes\n\nเมื่อผลรวมของ Base Int กับ Base Dex รวมกันรวมกันเท่ากับ120 ขึ้นไป\nMatk + 40,\nลด Variable Cast Time 5%,\nเพิ่มปริมาณ Heal 10%\n\nเมื่อผลรวมของ Base Str กับ Base Luk รวมกันเท่ากับ120 ขึ้นไป\nAtk + 5%,\nCri+5,\nCritical Damage 5%\n\nเมื่อผลรวมของ Base Vit กับ Base Agi รวมกันเท่ากับ120 ขึ้นไป\nMax HP + 5%,\nAspd + 5%,\nลด Damage ที่ได้รับจากมอนสเตอร์ประเภท Demi-Human 2%\n\nเมื่อสวมใส่ร่วมกับ sunglasses หรือ sunglasses []\nลด Damage ที่ได้รับจาก Player 2%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^77777790^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
     "slots": 0,
     "itemTypeId": 2,
     "itemSubTypeId": 512,
@@ -46511,34 +46441,33 @@
     "attack": null,
     "defense": 0,
     "weight": 10,
-    "requiredLevel": 100,
+    "requiredLevel": 90,
     "location": "Lower",
     "compositionPos": null,
-    "skip": true,
     "usableClass": [
       "all"
     ],
     "script": {
       "p_class_all": [
-        "EQUIP[Sunglasses||Glasses]SUM[str,luk==80]---6"
+        "SUM[str,luk==120]---5"
       ],
       "cri": [
-        "EQUIP[Sunglasses||Glasses]SUM[str,luk==80]---5"
+        "SUM[str,luk==120]---5"
       ],
       "criDmg": [
-        "EQUIP[Sunglasses||Glasses]SUM[str,luk==80]---10"
+        "SUM[str,luk==120]---5"
       ],
       "matk": [
-        "EQUIP[Sunglasses||Glasses]SUM[int,dex==80]---120"
+        "SUM[int,dex==120]---40"
       ],
       "vct": [
-        "EQUIP[Sunglasses||Glasses]SUM[int,dex==80]---3"
+        "SUM[int,dex==120]---5"
       ],
       "aspdPercent": [
-        "EQUIP[Sunglasses||Glasses]SUM[agi,vit==80]---5"
+        "SUM[agi,vit==120]---5"
       ],
       "hpPercent": [
-        "EQUIP[Sunglasses||Glasses]SUM[agi,vit==80]---5"
+        "SUM[agi,vit==120]---5"
       ]
     }
   },
@@ -48270,7 +48199,7 @@
     "attack": null,
     "defense": 80,
     "weight": 0,
-    "requiredLevel": 150,
+    "requiredLevel": 90,
     "location": null,
     "compositionPos": null,
     "usableClass": [
@@ -65010,5 +64939,658 @@
         "15"
       ]
     }
+  },
+  "2129": {
+    "id": 2129,
+    "aegisName": "Exorcism_Bible",
+    "flavorText": null,
+    "name": "Exorcism Bible",
+    "unidName": null,
+    "resName": "구마의성서",
+    "unidResName": null,
+    "description": "สมุดเล่มหนาที่มีสกิลพื้นฐานของนักบวชบันทึกไว้\nHP, SP Recovery 3%, INT + 1\nเมื่อใส่คู่กับ Holy Stick สกิล Magnus Exorcismus จะแรงขึ้น 20%\nมีโอกาสเล็กน้อยที่จะร่ายสกิล Turn Undead Lv1 เมื่อได้รับความเสียหาย\nประเภท : ^777777Shield^000000 พลังป้องกัน : ^77777780^000000\nน้ำหนัก : ^77777760^000000\nเลเวลที่ต้องการ : ^77777750^000000\nอาชีพ : ^777777Priest, Monk^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 514,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 80,
+    "weight": 60,
+    "requiredLevel": 50,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Acolyte"
+    ],
+    "script": {
+      "int": [
+        "1"
+      ],
+      "Magnus Exorcismus": [
+        "EQUIP[Holy Stick]===20"
+      ]
+    }
+  },
+  "2607": {
+    "id": 2607,
+    "aegisName": "Clip",
+    "flavorText": null,
+    "name": "Clip [1]",
+    "unidName": null,
+    "resName": "클립",
+    "unidResName": null,
+    "description": "อุปกรณ์เสริมประเภทหนึ่ง สามารถติดกับอะไรก็ได้\nSP + 10\nประเภท : ^777777Accessory^000000\nพลังป้องกัน : ^7777770^000000 น้ำหนัก : ^77777710^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [ "all" ],
+    "script": {
+      "sp": [ "10" ]
+    }
+  },
+    "2677": {
+    "id": 2677,
+    "aegisName": "Spiritual_Ring",
+    "flavorText": null,
+    "name": "Spiritual Ring",
+    "unidName": null,
+    "resName": "스피리츄얼링",
+    "unidResName": null,
+    "description": "แหวนงดงามที่ดูดซึมพลังวิญญาณเอาไว้\nผู้สวมใส่จะรู้สึกถึงพลังแปลกๆ ในตัวมัน\nINT +2, DEX +1\n^99FF66Spirtual Wizardry Set^000000\n^00FF00Spiritual Ring^000000\n^00FF00Wizardry Staff or Soul Staff^000000\n+6% MATK\n+2 DEX\nลดระยะเวลาการร่ายเวทย์ลงเป็น % ตามอัตราการอัพเกรดของอาวุธ\n^99FF66Spiritual Exorcism Set^000000\n^00FF00Spiritual Ring^000000\n^00FF00Clip or Rosary^000000\nเพิ่มความรุนแรงให้กับสกิล Magnus Exorcismus ขึ้น 30%\nเพิ่มความรุนแรงให้กับสกิล Heal ต่อมอนสเตอร์ประเภท Undead 50%\nอัตราการฟื้นฟู SP เพิ่มขึ้น 9%\nประเภท : ^777777Accessory^000000\nพลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777710^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": null,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "int": [ "2" ],
+      "dex": [
+        "1",
+        "EQUIP[Soul Staff]===2"
+      ],
+      "matkPercent": [ "6" ],
+      "vct": [
+        "EQUIP[Soul Staff]REFINE[weapon==1]---1"
+      ],
+      "Magnus Exorcismus": [
+        "EQUIP[Clip]===30"
+      ]
+    }
+  },
+  "2130": {
+    "id": 2130,
+    "aegisName": "Cross_Shield",
+    "flavorText": null,
+    "name": "Cross Shield [1]",
+    "unidName": null,
+    "resName": "크로스쉴드",
+    "unidResName": null,
+    "description": "โล่ขนาดใหญ่และหนารูปทรงกางเขน STR + 1\nเพิ่มความแรง 30% ให้กับสกิล SHIELDCHAIN, SHIELDBOOMERANG\nแต่ใช้ SP เพิ่มขึ้น\nประเภท : ^777777Shield^000000\nพลังป้องกัน : ^777777130^000000\nน้ำหนัก : ^777777200^000000\nเลเวลที่ต้องการ : ^77777780^000000\nอาชีพ : ^777777Crusader^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 514,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 130,
+    "weight": 200,
+    "requiredLevel": 80,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Paladin"
+    ],
+    "script": {
+      "Shield Chain": [
+        "30"
+      ],
+      "str": [
+        "1"
+      ]
+    }
+  },
+  "28507": {
+    "id": 28507,
+    "aegisName": "Glove_Of_Wizard",
+    "flavorText": null,
+    "name": "Magician's Gloves [1]",
+    "unidName": null,
+    "resName": "마술사의글러브",
+    "unidResName": null,
+    "description": "ถุงมือที่นักเวทย์ผู้ปราดเปรื่องคนหนึ่งสวมใส่\nสามารถใช้เวทมนตร์ได้อย่างมีประสิทธิภาพ\n\nเพิ่มพลังโจมตีทางเวทย์ของธาตุ Fire, Water, Wind, Earth, Neutral 5%\nไม่สนต่อพลังป้องกันทางเวทย์ของมอนสเตอร์ทุกเผ่า 50%\nลดระยะเวลาร่ายแบบแปรผัน 10%\nประเภท : ^777777Accessory^000000 พลังป้องกัน : ^7777770^000000\nน้ำหนัก : ^77777750^000000\nเลเวลที่ต้องการ : ^77777780^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 517,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 50,
+    "requiredLevel": 80,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Mage"
+    ],
+    "script": {
+      "m_my_element_earth": [ "5" ],
+      "m_my_element_water": [ "5" ],
+      "m_my_element_wind": [ "5" ],
+      "m_my_element_fire": [ "5" ],
+      "m_my_element_neutral": [ "5" ],
+      "vct": [ "10" ],
+      "m_pene_race_all": [ "50" ]
+    }
+  },
+  "420134": {
+    "id": 420134,
+    "aegisName": "Sprit_Of_World",
+    "flavorText": null,
+    "name": "The Spirit Of World",
+    "unidName": null,
+    "resName": "도깨비불",
+    "unidResName": null,
+    "description": "ราชาแห่งดวงวิญญาณที่เป็นดั่งพื้นฐานของเวทมนตร์ต่าง ๆ ของโลกใบนี้\nMATK + 30\nฟื้นฟู HP 50 หน่วย ทุก ๆ 10 วินาที\nทุก ๆ Base STR 10, เพิ่ม Damage เวทมนตร์ธาตุ Neutral 1%\nทุก ๆ Base AGI 10, เพิ่ม Damage เวทมนตร์ธาตุ Wind 1%\nทุก ๆ Base VIT 10, เพิ่ม Damage เวทมนตร์ธาตุ Earth 1%\nทุก ๆ Base INT 10, เพิ่ม Damage เวทมนตร์ธาตุ Fire 1%\nทุก ๆ Base DEX 10, เพิ่ม Damage เวทมนตร์ธาตุ Water 1%\nทุก ๆ Base LUK 10, เพิ่ม Damage เวทมนตร์ธาตุ Holy 1%\nทุก ๆ Base (Str+Agi+Vit+Int+Dex+Luk) รวมกัน 60, เพิ่ม Damage เวทมนต์ธาตุ Ghost 1%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Lower^000000 น้ำหนัก : ^77777760^000000\nเลเวลที่ต้องการ : ^77777770^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 60,
+    "requiredLevel": 70,
+    "location": "Lower",
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "matk": [ "30" ],
+      "m_my_element_neutral": [
+        "SUM[str==10]---1"
+      ],
+      "m_my_element_wind": [
+        "SUM[agi==10]---1"
+      ],
+      "m_my_element_earth": [
+        "SUM[vit==10]---1"
+      ],
+      "m_my_element_fire": [
+        "SUM[int==10]---1"
+      ],
+      "m_my_element_water": [
+        "SUM[dex==10]---1"
+      ],
+      "m_my_element_holy": [
+        "SUM[luk==10]---1"
+      ]
+    }
+  },
+  "21015": {
+    "id": 21015,
+    "aegisName": "Scarlet_Twohand_Sword",
+    "flavorText": null,
+    "name": "Two-Handed Sword of Crimson [2]",
+    "unidName": null,
+    "resName": "진홍의투핸드소드",
+    "unidResName": null,
+    "description": "ดาบสองมือที่เปล่งแสงสีแดงบนดาบ\nเพิ่ม ATK เท่ากับ (ระดับ Refine*ระดับ Refine) (สามารถ Refine ได้ถึง 15)\nเพิ่ม MATK เท่ากับ (ระดับ Refine*ระดับ Refine)/2 (สามารถ Refine ได้ถึง 15)\nตัวละครเลเวล 70 ขึ้นไป : ทุกครั้งที่ BaseLv เพิ่มขึ้น 10 เลเวล จะเพิ่ม ATK ทีละ +5 \nประเภท : ^777777Two-Handed Sword^000000 โจมตี : ^777777170^000000\nน้ำหนัก : ^777777170^000000\nเลเวลอาวุธ : ^7777773^000000\nเลเวลที่ต้องการ : ^77777770^000000\nอาชีพที่ใส่ได้ : ^777777 Swordman^000000",
+    "slots": 2,
+    "itemTypeId": 1,
+    "itemSubTypeId": 258,
+    "itemLevel": null,
+    "attack": 170,
+    "defense": null,
+    "weight": 170,
+    "requiredLevel": 70,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "Swordman"
+    ],
+    "script": {
+      "atk": [
+        "1===1",
+        "2===3",
+        "3===5",
+        "4===7",
+        "5===9",
+        "6===11",
+        "7===13",
+        "8===15",
+        "9===17",
+        "10===19",
+        "11===21",
+        "12===23",
+        "13===25",
+        "14===27",
+        "15===29",
+        "SUM[level==70]===-35",
+        "SUM[level==10]---5"
+      ]
+    }
+  },
+  "5360": {
+    "id": 5360,
+    "aegisName": "Whikebain_Ears",
+    "flavorText": null,
+    "name": "Whikebain's Black Ears",
+    "unidName": null,
+    "resName": "휘케바인의귀",
+    "unidResName": null,
+    "description": "หูสีดำที่เคยถูกใช้โดย Whikebain\nสร้างความเสียหายจากการโจมตีแบบ critical แรงขึ้น 10%\nเมื่อคุณใช้เวทย์โจมตี monsters, มีโอกาสสูงที่จะไม่คิด MDEF เป็นเวลา 5 วินาที\nFLEE + 10\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777774^000000\nใช้สำหรับ : ^777777Upper ^000000\nน้ำหนัก : ^77777720^000000\nเลเวลที่ต้องการ : ^77777745^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 0,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 4,
+    "weight": 20,
+    "requiredLevel": 45,
+    "location": "Upper",
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "chance__m_pene_race_all": [
+        "100"
+      ],
+      "criDmg": [
+        "10"
+      ],
+      "flee": [
+        "10"
+      ]
+    }
+  },
+  "18600": {
+    "id": 18600,
+    "aegisName": "Cat_Ears_Beret",
+    "flavorText": null,
+    "name": "Cat Ears Beret [1]",
+    "unidName": null,
+    "resName": "고양이귀베레모",
+    "unidResName": null,
+    "description": "หมวกผ้าน่ารัก ที่ทำให้ผู้สวมใส่รู้สึกว่าตัวเองเป็นกลายแมวเมื่อได้สวมใส่มัน\nเพิ่ม Damage ทางกายภาพต่อศัตรูทุกประเภท 5%\nทุกการอัพเกรดที่มากกว่าระดับ +5 ขึ้นไป, เพิ่มพลังโจมตีทางกายภาพขึ้น 1% ให้กับการโจมตีมอนสเตอร์ประเภทกึ่งมนุษย์ และได้รับค่าความเสียหายจากมอนสเตอร์ประเภทกึ่งมนุษย์ ลดลงด้วย 1%\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777775^000000\nใช้สำหรับ : ^777777Upper ^000000 น้ำหนัก : ^77777730^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 5,
+    "weight": 30,
+    "requiredLevel": 1,
+    "location": "Upper",
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "p_class_all": [
+        "5"
+      ],
+      "p_race_demihuman": [
+        "6===1",
+        "7===1",
+        "8===1",
+        "9===1",
+        "10===1",
+        "11===1",
+        "12===1",
+        "13===1",
+        "14===1",
+        "15===1"
+      ]
+    }
+  },
+  "460141": {
+    "id": 460141,
+    "aegisName": "Mesarthim_Mirror_Shield",
+    "flavorText": null,
+    "name": "Mesarthim Mirror Shield [1]",
+    "unidName": null,
+    "resName": "Mesarthim",
+    "unidResName": null,
+    "description": "โล่กระจกที่ตั้งชื่อตามดวงดาว บรรจุพลังศักดิ์สิทธิ์ของ “แกะ” ผู้เป็นทูตแห่งเทพเจ้า\n\nMDEF + 15\nสะท้อนความเสียหายจากการโจมตีระยะประชิดได้ 10%\nลด Damage ที่ได้รับจาก Player 5%,\nลด Damage ที่ได้รับจากมอนสเตอร์บอส 30%\nทุก ๆ การอัพเกรด 1 ขั้น MaxHP + 3%, MaxSP + 3%\nเมื่ออัพเกรดถึงขั้น 9 เพิ่มความต้านทานต่อการโจมตีธาตุ Fire 25%\nเมื่ออัพเกรดถึงขั้น 11 เพิ่มความต้านทานต่อการโจมตีธาตุ Poison 15%\nประเภท : ^777777Shield^000000  พลังป้องกัน : ^777777170^000000\nน้ำหนัก : ^777777400^000000\nเลเวลที่ต้องการ : ^77777785^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพยกเว้น Novice^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 514,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 170,
+    "weight": 400,
+    "requiredLevel": 85,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "mdef": [
+        "15"
+      ]
+    }
+  },
+  "510121": {
+    "id": 510121,
+    "aegisName": "Red_Combat_ROC",
+    "flavorText": null,
+    "name": "Red Combat Knife",
+    "unidName": null,
+    "resName": "카노나이프",
+    "unidResName": null,
+    "description": "มีดสีเงินที่ถูกหลอมขึ้นมาแบบทหารสำหรับการต่อสู้ตัวต่อตัว\nAGI + 2, MHP - 4%\nเพิกเฉยต่อพลังป้องกันของศัตรูประเภท Demi-Human\nลด Damage ที่ได้รับจากศัตรูประเภท Demi-Human 4%\nทุก ๆ การอัพเกรด 1 ขั้น ลด Damage ที่ได้รับจากศัตรูประเภท Demi-Human เพิ่มอีก 1%, MHP + 1% สูงสุดถึงการอัพเกรดขั้นที่ 15\n\nประเภท : ^777777Dagger^000000 พลังโจมตี : ^77777780^000000\nน้ำหนัก : ^77777740^000000\nเลเวลอาวุธ : ^7777774^000000\nเลเวลที่ต้องการ : ^77777780^000000\nอาชีพที่ใส่ได้ : ^777777Swordman Cls, Thief Cls, Magician Cls, Merchant Cls, Ninja Cls, Soul Linker Cls^000000",
+    "slots": 0,
+    "itemTypeId": 1,
+    "itemSubTypeId": 256,
+    "itemLevel": 4,
+    "attack": 80,
+    "defense": null,
+    "weight": 40,
+    "requiredLevel": 80,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "agi": [
+        "2"
+      ],
+      "p_pene_race_demihuman": [
+        "100"
+      ]
+    }
+  },
+  "410373": {
+    "id": 410373,
+    "aegisName": null,
+    "flavorText": null,
+    "name": "Gryphon Ears [1]",
+    "unidName": null,
+    "resName": "그리폰의날개귀",
+    "unidResName": null,
+    "description": "เครื่องประดับรูปปีกกริฟฟอนที่ทำมาจากขนของกริฟฟอน\n\nMaxHP + 15%\nเพิ่มความต้านทานต่อ Player 5%\nสามารถใช้สกิล HP Recovery Lv.10\n\nเมื่อ Base Lv.88\nสามารถใช้สกิล Safety Wall Lv.10 ได้\nเมื่อเรียนรู้สกิล Devotion ถึง Lv.5 ลด Fixed Cast Time 30%\n\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777770^000000\nตำแหน่ง : ^777777Middle^000000 น้ำหนัก : ^77777710^000000\nเลเวลที่ต้องการ : ^77777780^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 0,
+    "weight": 10,
+    "requiredLevel": 80,
+    "location": "Middle",
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [],
+    "script": {
+      
+    }
+  },
+  "480120": {
+    "id": 480120,
+    "aegisName": "Guardian_Soul_TH",
+    "name": "Guardian Soul",
+    "unidName": "Garment",
+    "resName": "Guardian_Soul",
+    "description": "เสื้อคลุมที่เคยเป็นของนักปราชญ์ผู้รับใช้พระราชาผู้ยิ่งใหญ่  \nแฝงไปด้วยพลังป้องกันที่ไม่สามารถหยั่งถึงได้\nไอเท็มชิ้นนี้ไม่สามารถทำลายได้\nสามารถใช้สกิล Heaven Drive Lv1 ได้  \nเพิ่มความทนทานต่อ Damage ที่ได้รับจาก Player 5% \nเมื่ออัพเกรดขั้น 7 ขึ้นไป,\nทุกๆ ผลรวมของ LUK และ STR เท่ากับ 18\nลด Delay หลังใช้สกิล 1%\nเพิ่มความทนทานต่อธาตุ Holy และธาตุ Shadow 3%\nทุกๆ ผลรวมของ AGI และ VIT เท่ากับ 18\nเพิ่ม ASPD 1%\nMHP +1%\nเพิ่มความทนทานต่อธาตุ Fire และธาตุ Water 3%\nทุกๆ ผลรวมของ INT และ DEX เท่ากับ 18\nเพิ่มความทนทานต่อธาตุ Wind และธาตุ Earth 3%\nลด Variable Cast Time 1%\nเมื่ออัพเกรดขั้น 12 ขึ้นไป,\nทุกๆ ผลรวมของ LUK และ STR เท่ากับ 18\nเพิ่มความทนทานต่อธาตุ Holy และธาตุ Shadow 2%\nทุกๆ ผลรวมของ AGI และ VIT เท่ากับ 18\nMHP +1%\nเพิ่มความทนทานต่อธาตุ Fire และธาตุ Water 2%\nทุกๆ ผลรวมของ INT และ DEX เท่ากับ 18\nเพิ่มความทนทานต่อธาตุ Wind และธาตุ Earth 2%\nประเภท : ^777777Garment^000000  พลังป้องกัน : ^77777725^000000\nน้ำหนัก : ^777777100^000000\nเลเวลที่ต้องการ : ^777777100^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 515,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 25,
+    "weight": 100,
+    "requiredLevel": 90,
+    "location": null,
+    "compositionPos": null,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "acd": [
+        "REFINE[7]SUM[luk,str==18]---1"
+      ],
+      "aspdPercent": [
+        "REFINE[7]SUM[agi,vit==18]---1"
+      ],
+      "hpPercent": [
+        "REFINE[7]SUM[agi,vit==18]---1",
+        "REFINE[12]SUM[agi,vit==18]---1"
+      ],
+      "vct": [
+        "REFINE[7]SUM[int,dex==18]---1"
+      ]
+    }
+  },
+  "5856": {
+    "id": 5856,
+    "aegisName": "Passion_FB_Hat",
+    "flavorText": null,
+    "name": "Worldcup Hat of Passion",
+    "unidName": null,
+    "resName": "열정의축구공모자",
+    "unidResName": null,
+    "description": "^ff0000ไอเทมไม่สามารถแลกเปลี่ยนได้^000000\nหมวกที่ทำให้คุณรู้สึกร่วมไปกับงานเทศกาล\nวิ่งไปทั่วสนามด้วยความอึดที่น่าประหลาดใจ!!\nSTR+ 2, DEX+ 2\nเมื่อทำการโจมตีทางกายภาพ มีโอกาสเพิ่มพลังโจมตีทางกายภาพแรงขึ้น 5%\n และ Flee -15 เป็นระยะเวลา 10 วินาที\nเมื่ออัพเกรดขั้นที่ 7 ความเสียหายระยะใกล้และไกลเพิ่มขึ้น 10%\nเมื่ออัพเกรดขั้นที่ 9 เพิ่มความรุนแรงทางกายภาพต่อ MVP 10%\n^ff0000(ความสามารถในช่วงเวลากิจกรรม)^000000\nมีโอกาส 5% ที่จะนำ 4% ของ Damage ทางกายภาพต่อศัตรู มาเป็น HP,SP ของตนเอง\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777772^000000\nใช้สำหรับ : ^777777Upper ^000000 น้ำหนัก : ^77777760^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 2,
+    "weight": 60,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "str": [
+        "2"
+      ],
+      "dex": [
+        "2"
+      ],
+      "chance__p_class_all": [
+        "5"
+      ],
+      "range": [
+        "7===10"
+      ],
+      "melee": [
+        "7===10"
+      ],
+      "p_class_boss": [
+        "9===10"
+      ]
+    }
+  },
+  "5857": {
+    "id": 5857,
+    "aegisName": "Cool_FB_Hat",
+    "flavorText": null,
+    "name": "Worldcup Hat of Fight",
+    "unidName": null,
+    "resName": "냉철의축구공모자",
+    "unidResName": null,
+    "description": "^ff0000ไอเทมไม่สามารถแลกเปลี่ยนได้^000000\nหมวกที่ทำให้คุณรู้สึกร่วมไปกับงานเทศกาล\nยิงอย่างแรงด้วยพลังอันน่าทึ่ง!!\nVIT+ 2, INT+ 2.\nสามารถใช้งานสกิล Flame Launcher Lv.1 ได้\n\nเมื่อใช้สกิล Heal มีโอกาสเล็กน้อยที่จะได้เพิ่มอัตราการเพิ่ม HP 20% เป็นระยะเวลา 5 วินาที\nเมื่อทำการโจมตีกายภาพ มีโอกาส 10% ร่ายสกิล Fire Ball Lv.5 , Meteo Storm Lv.5 ใส่ศัตรู\nเมื่ออัพเกรดขั้นที่ 7 พลังโจมตีเวทธาตุไฟ เพิ่มขึ้น 10%\nเมื่ออัพเกรดขั้นที่ 9 เพิ่มค่าความเสียหายสกิล Fire Ball , Meteo Storm ขึ้น 15%\n^ff0000(ความสามารถในช่วงเวลากิจกรรม)^000000\nเมื่อกำจัดมอนเตอร์จะมีโอกาส 1% ที่จะได้รับไอเทม Soccer Cake\nไม่ติดสถานะ Stun, Frost, Stone Curse\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777772^000000\nใช้สำหรับ : ^777777Upper ^000000 น้ำหนัก : ^77777760^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 2,
+    "weight": 60,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "vit": [
+        "2"
+      ],
+      "int": [
+        "2"
+      ],
+      "m_element_fire": [
+        "7===10"
+      ],
+      "Fire Ball": [
+        "9===15"
+      ],
+      "Meteor Storm": [
+        "9===15"
+      ]
+    }
+  },
+  "5858": {
+    "id": 5858,
+    "aegisName": "Victory_FB_Hat",
+    "flavorText": null,
+    "name": "Worldcup Hat of Victory [1]",
+    "unidName": null,
+    "resName": "승리의축구공모자",
+    "unidResName": null,
+    "description": "^ff0000ไอเทมไม่สามารถแลกเปลี่ยนได้^000000\nหมวกที่ทำให้คุณรู้สึกร่วมไปกับงานเทศกาล\nทำให้ทีมเหนือกว่าด้วยแผนอันชาญฉลาด!!\nINT+ 2, DEX+ 2.\nเมื่อโจมตีด้วยเวทมนตร์ มีโอกาสเล็กน้อย ที่จะเพิ่มพลังโจมตีเวทมนตร์ 5% และ Def -30 เป็นระยะเวลา 10 วินาที\nเมื่ออัพเกรดขั้นที่ 7 DEFF+ 100 , MDEF+ 20\nเมื่ออัพเกรดขั้นที่ 9 เพิ่มพลังป้องกันต่อ MVP 10%\n^ff0000(ความสามารถในช่วงเวลากิจกรรม)^000000\nเมื่อโจมตีทางเวทมนตร์ มีโอกาส 5% ที่จะฟื้นฟู SP 200 หน่วย 9 ครั้งเป็นเวลา 10 วินาที\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777772^000000\nใช้สำหรับ : ^777777Upper ^000000 น้ำหนัก : ^77777760^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 2,
+    "weight": 60,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "int": [
+        "2"
+      ],
+      "dex": [
+        "2"
+      ],
+      "def": [
+        "7===100"
+      ],
+      "mdef": [
+        "7===20"
+      ],
+      "chance__matkPercent": [
+        "5"
+      ]
+    }
+  },
+  "5859": {
+    "id": 5859,
+    "aegisName": "Glory_FB_Hat",
+    "flavorText": null,
+    "name": "Worldcup Hat of Honor",
+    "unidName": null,
+    "resName": "영광의축구공모자",
+    "unidResName": null,
+    "description": "^ff0000ไอเทมไม่สามารถแลกเปลี่ยนได้^000000\nหมวกที่ทำให้คุณรู้สึกร่วมไปกับงานเทศกาล\nสู้สุดใจเพื่อชัยชนะ!!\nALL STATE + 1, ASPD +1\nพลังโจมตีทางกายภาพและเวทมนตร์เพิ่มขึ้นเท่ากับ (LV/7)\nเมื่ออัพเกรดขั้นที่ 7 ASPD+ 1\nเมื่ออัพเกรดขั้นที่ 9 เพิ่มความรุนแรงทางกายภาพต่อ MVP 10%\n^ff0000(ความสามารถในช่วงเวลากิจกรรม)^000000\nเพิ่ม Damage ทางกายภาพระยะใกล้/ไกล +10 %, MATK + 10%, ลดระยะเวลาร่ายแบบคงที่ 0.3 วินาที\nประเภท : ^777777Headgear^000000 พลังป้องกัน : ^7777772^000000\nใช้สำหรับ : ^777777Upper ^000000 น้ำหนัก : ^77777760^000000\nเลเวลที่ต้องการ : ^7777771^000000\nอาชีพ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 512,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 2,
+    "weight": 60,
+    "requiredLevel": 1,
+    "location": null,
+    "compositionPos": null,
+    "canGrade": false,
+    "usableClass": [
+      "all"
+    ],
+    "script": {
+      "allStatus": [
+        "1"
+      ],
+      "aspd": [
+        "1",
+        "7===1"
+      ],
+      "p_class_boss": [
+        "9===10"
+      ],
+      "atk": [
+        "SUM[level==7]---1"
+      ],
+      "matk": [
+        "SUM[level==7]---1"
+      ]
+    }
+  },
+  "22257": {
+    "id": 22257,
+    "aegisName": "Racing_Shoes_TH",
+    "name": "Midgard Cup Sprint Boots [1]",
+    "unidName": "Racing Shoes",
+    "resName": "축구화",
+    "description": "^ff0000ไม่สามารถแลกเปลี่ยนกับผู้เล่นคนอื่นได้^000000\nรองเท้าคู่พิเศษที่สร้างขึ้นเพื่อเฉลิมฉลอง Midgard Cup Festival 2026\nผู้สวมใส่จะได้รับจิตวิญญาณของผู้ไม่เคยยอมแพ้ \n\nASPD +10%\nทุก ๆ การอัพเกรด 1 ขั้น, เพิ่มค่าประสบการณ์ที่ได้รับจากมอนสเตอร์ 2%\nเมื่ออัพเกรดตั้งแต่ 7 ขึ้นไป ลดระยะเวลาร่ายแบบคงที่ 0.3 วินาที\nเมื่ออัพเกรดตั้งแต่ 9 ขึ้นไป ลดระยะเวลาร่ายแบบคงที่เพิ่มเติม 0.2 วินาที\n\nเมื่อสวมใส่กับ Worldcup Hat of Passion [1], ATK+ 50\n\nเมื่อสวมใส่กับ Worldcup Hat of Fight [1], MATK+ 50, เมื่อโจมตีทางกายภาพทั่วไป มีโอกาสที่จะใช้สกิล Meteor Storm Lv. 5 และ Lord of Vermilion Lv. 5\nเมื่อสวมใส่กับ Worldcup Hat of Victory [1], MaxHP + 1000\n\nเมื่อสวมใส่กับ Worldcup Hat of Honor [1], ASPD + 1\n\nประเภท : ^777777Shoes^000000 พลังป้องกัน : ^77777730^000000\nน้ำหนัก : ^77777740^000000\nเลเวลที่ต้องการ : ^77777760^000000\nอาชีพที่ใส่ได้ : ^777777ทุกอาชีพ^000000",
+    "slots": 1,
+    "itemTypeId": 2,
+    "itemSubTypeId": 516,
+    "itemLevel": null,
+    "attack": null,
+    "defense": 30,
+    "weight": 40,
+    "requiredLevel": 60,
+    "location": null,
+    "compositionPos": null,
+    "script": {
+      "aspdPercent": [
+        "10"
+      ],
+      "fct": [
+        "7===0.3",
+        "9===0.2"
+      ],
+      "atk": [
+        "EQUIP[Worldcup Hat of Passion]===50"
+      ],
+      "matk": [
+        "EQUIP[Worldcup Hat of Fight]===50"
+      ],
+      "aspd": [
+        "EQUIP[Worldcup Hat of Honor]===1"
+      ]
+    },
+    "usableClass": [
+      "all"
+    ]
   }
 }
